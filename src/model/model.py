@@ -28,7 +28,7 @@ class TargetNet(nn.Module):
         self.inception = InceptionWithAttention(10, 16, (16, 32), (8, 16), 12)
         self.max_pool = nn.MaxPool1d(model_cfg.pool_size)
         # self.linear = nn.Linear(int(num_channels[-1] * out_length), 1)
-        self.linear = nn.Linear(512, 1)
+        self.linear = nn.Linear(3800, 1)
 
         #changes for the fused gate parts
         self.inception_proj = nn.Linear(3800, 512)
@@ -49,24 +49,24 @@ class TargetNet(nn.Module):
     def forward(self, x):
         x2 = self.inception(x)
         # Project the Inception output to the common dimension (512)
-        x2 = self.inception_proj(x2)
+        # x2 = self.inception_proj(x2)
 
-        x = self.stem(x)
-        # print(x.shape)
-        x = self.stage1(x)
-        x = self.stage2(x)
-        x = self.dropout(self.relu(x))
-        x = self.max_pool(x)
+        # x = self.stem(x)
+        # # print(x.shape)
+        # x = self.stage1(x)
+        # x = self.stage2(x)
+        # x = self.dropout(self.relu(x))
+        # x = self.max_pool(x)
         # print(f"ResNet output shape: {x.shape}")
-        print(f"Inception output shape: {x2.shape}")
-        x = x.reshape(len(x), -1)
-        print(f"Flattened ResNet output shape: {x.shape}")
+        # print(f"Inception output shape: {x2.shape}")
+        # x = x.reshape(len(x), -1)
+        # print(f"Flattened ResNet output shape: {x.shape}")
         # x = torch.cat((x,x2), dim = 1)
 
         # Use the FusionGate to combine features:
-        x = self.fusion_gate(x, x2)
+        # x = self.fusion_gate(x, x2)
 
-        x = self.dropout(self.relu(x))
+        x = self.dropout(self.relu(x2))
         # print(f"Concatenated output shape: {x.shape}")
         x = self.linear(x)
         # print(x.shape,'here ', x)
