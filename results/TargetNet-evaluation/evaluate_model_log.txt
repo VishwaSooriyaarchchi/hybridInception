@@ -1,0 +1,1857 @@
+01-08 23:46:31	##### arguments #####
+01-08 23:46:31	data_config: config/data/miRAW_eval.json
+01-08 23:46:31	-- with_esa: True
+01-08 23:46:31	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+01-08 23:46:31	model_config: config/model/TargetNet.json
+01-08 23:46:31	-- skip_connection: True
+01-08 23:46:31	-- num_channels: [16, 16, 32]
+01-08 23:46:31	-- num_blocks: [2, 1, 1]
+01-08 23:46:31	-- stem_kernel_size: 5
+01-08 23:46:31	-- block_kernel_size: 3
+01-08 23:46:31	-- pool_size: 3
+01-08 23:46:31	run_config: config/run/run.json
+01-08 23:46:31	-- batch_size_eval: 256
+01-08 23:46:31	checkpoint: pretrained_models/TargetNet.pt
+01-08 23:46:31	device: cuda (1 GPUs)
+01-08 23:46:31	output_path: results/TargetNet-evaluation/
+01-08 23:46:31	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-08 23:46:31	start loading datasets
+01-08 23:52:02	loaded 1500688 test0 samples
+01-08 23:57:20	loaded 1511791 test1 samples
+01-09 00:03:22	loaded 1472021 test2 samples
+01-09 00:06:36	##### arguments #####
+01-09 00:06:36	data_config: config/data/miRAW_eval.json
+01-09 00:06:36	-- with_esa: True
+01-09 00:06:36	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+01-09 00:06:36	model_config: config/model/TargetNet.json
+01-09 00:06:36	-- skip_connection: True
+01-09 00:06:36	-- num_channels: [16, 16, 32]
+01-09 00:06:36	-- num_blocks: [2, 1, 1]
+01-09 00:06:36	-- stem_kernel_size: 5
+01-09 00:06:36	-- block_kernel_size: 3
+01-09 00:06:36	-- pool_size: 3
+01-09 00:06:36	run_config: config/run/run.json
+01-09 00:06:36	-- batch_size_eval: 256
+01-09 00:06:36	checkpoint: pretrained_models/TargetNet.pt
+01-09 00:06:36	device: cuda (1 GPUs)
+01-09 00:06:36	output_path: results/TargetNet-evaluation/
+01-09 00:06:36	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-09 00:06:36	start loading datasets
+01-22 11:21:20	##### arguments #####
+01-22 11:21:20	data_config: config/data/miRAW_eval.json
+01-22 11:21:20	-- with_esa: True
+01-22 11:21:20	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+01-22 11:21:20	model_config: config/model/TargetNet.json
+01-22 11:21:20	-- skip_connection: True
+01-22 11:21:20	-- num_channels: [16, 16, 32]
+01-22 11:21:20	-- num_blocks: [2, 1, 1]
+01-22 11:21:20	-- stem_kernel_size: 5
+01-22 11:21:20	-- block_kernel_size: 3
+01-22 11:21:20	-- pool_size: 3
+01-22 11:21:20	run_config: config/run/run.json
+01-22 11:21:20	-- batch_size_eval: 256
+01-22 11:21:20	checkpoint: pretrained_models/TargetNet.pt
+01-22 11:21:20	device: cuda (1 GPUs)
+01-22 11:21:20	output_path: results/TargetNet-evaluation/
+01-22 11:21:20	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-22 11:21:20	start loading datasets
+01-22 11:26:05	loaded 1500688 test0 samples
+01-22 11:30:53	loaded 1511791 test1 samples
+01-22 11:35:57	loaded 1472021 test2 samples
+01-22 12:26:09	##### arguments #####
+01-22 12:26:09	data_config: config/data/miRAW_eval.json
+01-22 12:26:09	-- with_esa: True
+01-22 12:26:09	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt', 'test4': 'data/miRAW_Test4.txt', 'test5': 'data/miRAW_Test5.txt', 'test6': 'data/miRAW_Test6.txt', 'test7': 'data/miRAW_Test7.txt', 'test8': 'data/miRAW_Test8.txt', 'test9': 'data/miRAW_Test9.txt'}
+01-22 12:26:09	model_config: config/model/TargetNet.json
+01-22 12:26:09	-- skip_connection: True
+01-22 12:26:09	-- num_channels: [16, 16, 32]
+01-22 12:26:09	-- num_blocks: [2, 1, 1]
+01-22 12:26:09	-- stem_kernel_size: 5
+01-22 12:26:09	-- block_kernel_size: 3
+01-22 12:26:09	-- pool_size: 3
+01-22 12:26:09	run_config: config/run/run.json
+01-22 12:26:09	-- batch_size_eval: 256
+01-22 12:26:09	checkpoint: results/TargetNet_training/TargetNet.pt
+01-22 12:26:09	device: cuda (1 GPUs)
+01-22 12:26:09	output_path: results/TargetNet-evaluation/
+01-22 12:26:09	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-22 12:26:09	start loading datasets
+01-22 12:30:59	loaded 1500688 test0 samples
+01-22 12:36:14	loaded 1511791 test1 samples
+01-22 12:41:27	loaded 1472021 test2 samples
+01-22 13:21:17	##### arguments #####
+01-22 13:21:17	data_config: config/data/miRAW_eval.json
+01-22 13:21:17	-- with_esa: True
+01-22 13:21:17	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt', 'test3': 'data/miRAW_Test3.txt'}
+01-22 13:21:17	model_config: config/model/TargetNet.json
+01-22 13:21:17	-- skip_connection: True
+01-22 13:21:17	-- num_channels: [16, 16, 32]
+01-22 13:21:17	-- num_blocks: [2, 1, 1]
+01-22 13:21:17	-- stem_kernel_size: 5
+01-22 13:21:17	-- block_kernel_size: 3
+01-22 13:21:17	-- pool_size: 3
+01-22 13:21:17	run_config: config/run/run.json
+01-22 13:21:17	-- batch_size_eval: 256
+01-22 13:21:17	checkpoint: results/TargetNet_training/TargetNet.pt
+01-22 13:21:17	device: cuda (1 GPUs)
+01-22 13:21:17	output_path: results/TargetNet-evaluation/
+01-22 13:21:17	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-22 13:21:17	start loading datasets
+01-22 13:26:07	loaded 1500688 test0 samples
+01-22 13:31:06	loaded 1511791 test1 samples
+01-22 13:36:20	loaded 1472021 test2 samples
+01-22 13:45:20	##### arguments #####
+01-22 13:45:20	data_config: config/data/miRAW_eval.json
+01-22 13:45:20	-- with_esa: True
+01-22 13:45:20	-- path: {'test0': 'data/miRAW_Test0.txt', 'test1': 'data/miRAW_Test1.txt', 'test2': 'data/miRAW_Test2.txt'}
+01-22 13:45:20	model_config: config/model/TargetNet.json
+01-22 13:45:20	-- skip_connection: True
+01-22 13:45:20	-- num_channels: [16, 16, 32]
+01-22 13:45:20	-- num_blocks: [2, 1, 1]
+01-22 13:45:20	-- stem_kernel_size: 5
+01-22 13:45:20	-- block_kernel_size: 3
+01-22 13:45:20	-- pool_size: 3
+01-22 13:45:20	run_config: config/run/run.json
+01-22 13:45:20	-- batch_size_eval: 256
+01-22 13:45:20	checkpoint: results/TargetNet_training/TargetNet.pt
+01-22 13:45:20	device: cuda (1 GPUs)
+01-22 13:45:20	output_path: results/TargetNet-evaluation/
+01-22 13:45:20	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-22 13:45:20	start loading datasets
+01-22 13:50:32	loaded 1500688 test0 samples
+01-22 13:55:42	loaded 1511791 test1 samples
+01-22 14:01:05	loaded 1472021 test2 samples
+01-22 14:01:05	elapsed time: 0:15:44.853920
+
+01-22 14:01:05	start initializing a model
+01-22 14:01:05	end initializing a model
+01-22 14:01:05	elapsed time: 0:00:00.049000
+
+01-22 14:01:05	start setting trainer configurations
+01-22 14:01:05	loading a model state_dict from the checkpoint
+01-22 14:01:05	end setting trainer configurations
+01-22 14:01:05	elapsed time: 0:00:00.503269
+
+01-22 14:01:05	start evaluating a model
+01-22 14:01:05	processing test0
+01-22 16:02:29	##### arguments #####
+01-22 16:02:29	data_config: config/data/miRAW_eval.json
+01-22 16:02:29	-- with_esa: True
+01-22 16:02:29	-- path: {'test0': 'data/miRAW_Test0.txt'}
+01-22 16:02:29	model_config: config/model/TargetNet.json
+01-22 16:02:29	-- skip_connection: True
+01-22 16:02:29	-- num_channels: [16, 16, 32]
+01-22 16:02:29	-- num_blocks: [2, 1, 1]
+01-22 16:02:29	-- stem_kernel_size: 5
+01-22 16:02:29	-- block_kernel_size: 3
+01-22 16:02:29	-- pool_size: 3
+01-22 16:02:29	run_config: config/run/run.json
+01-22 16:02:29	-- batch_size_eval: 256
+01-22 16:02:29	checkpoint: results/TargetNet_training/TargetNet.pt
+01-22 16:02:29	device: cuda (1 GPUs)
+01-22 16:02:29	output_path: results/TargetNet-evaluation/
+01-22 16:02:29	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-22 16:02:29	start loading datasets
+01-22 16:07:12	loaded 1500688 test0 samples
+01-22 16:07:12	elapsed time: 0:04:42.780913
+
+01-22 16:07:12	start initializing a model
+01-22 16:07:12	end initializing a model
+01-22 16:07:12	elapsed time: 0:00:00.017368
+
+01-22 16:07:12	start setting trainer configurations
+01-22 16:07:12	loading a model state_dict from the checkpoint
+01-22 16:07:12	end setting trainer configurations
+01-22 16:07:12	elapsed time: 0:00:00.406263
+
+01-22 16:07:12	start evaluating a model
+01-22 16:07:12	processing test0
+01-22 17:25:49	##### arguments #####
+01-22 17:25:49	data_config: config/data/miRAW_eval.json
+01-22 17:25:49	-- with_esa: True
+01-22 17:25:49	-- path: {'test0': 'data/miRAW_Test0.txt'}
+01-22 17:25:49	model_config: config/model/TargetNet.json
+01-22 17:25:49	-- skip_connection: True
+01-22 17:25:49	-- num_channels: [16, 16, 32]
+01-22 17:25:49	-- num_blocks: [2, 1, 1]
+01-22 17:25:49	-- stem_kernel_size: 5
+01-22 17:25:49	-- block_kernel_size: 3
+01-22 17:25:49	-- pool_size: 3
+01-22 17:25:49	run_config: config/run/run.json
+01-22 17:25:49	-- batch_size_eval: 256
+01-22 17:25:49	checkpoint: results/TargetNet_training/TargetNet.pt
+01-22 17:25:49	device: cuda (1 GPUs)
+01-22 17:25:49	output_path: results/TargetNet-evaluation/
+01-22 17:25:49	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-22 17:25:49	start loading datasets
+01-23 18:49:01	##### arguments #####
+01-23 18:49:01	data_config: config/data/miRAW_eval.json
+01-23 18:49:01	-- with_esa: True
+01-23 18:49:01	-- path: {'test0': 'data/miRAW_Test0.txt'}
+01-23 18:49:01	model_config: config/model/TargetNet.json
+01-23 18:49:01	-- skip_connection: True
+01-23 18:49:01	-- num_channels: [16, 16, 32]
+01-23 18:49:01	-- num_blocks: [2, 1, 1]
+01-23 18:49:01	-- stem_kernel_size: 5
+01-23 18:49:01	-- block_kernel_size: 3
+01-23 18:49:01	-- pool_size: 3
+01-23 18:49:01	run_config: config/run/run.json
+01-23 18:49:01	-- batch_size_eval: 256
+01-23 18:49:01	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 18:49:01	device: cuda (1 GPUs)
+01-23 18:49:01	output_path: results/TargetNet-evaluation/
+01-23 18:49:01	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 18:49:02	start loading datasets
+01-23 18:53:44	loaded 1500688 test0 samples
+01-23 18:53:44	elapsed time: 0:04:42.139123
+
+01-23 18:53:44	start initializing a model
+01-23 18:53:44	end initializing a model
+01-23 18:53:44	elapsed time: 0:00:00.017963
+
+01-23 18:53:44	start setting trainer configurations
+01-23 18:53:44	loading a model state_dict from the checkpoint
+01-23 18:53:44	end setting trainer configurations
+01-23 18:53:44	elapsed time: 0:00:00.406931
+
+01-23 18:53:44	start evaluating a model
+01-23 18:53:44	processing test0
+01-23 20:14:19	##### arguments #####
+01-23 20:14:19	data_config: config/data/miRAW_eval.json
+01-23 20:14:19	-- with_esa: True
+01-23 20:14:19	-- path: {'test0': 'data/miRAW_Test0.txt'}
+01-23 20:14:19	model_config: config/model/TargetNet.json
+01-23 20:14:19	-- skip_connection: True
+01-23 20:14:19	-- num_channels: [16, 16, 32]
+01-23 20:14:19	-- num_blocks: [2, 1, 1]
+01-23 20:14:19	-- stem_kernel_size: 5
+01-23 20:14:19	-- block_kernel_size: 3
+01-23 20:14:19	-- pool_size: 3
+01-23 20:14:19	run_config: config/run/run.json
+01-23 20:14:19	-- batch_size_eval: 256
+01-23 20:14:19	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 20:14:19	device: cuda (1 GPUs)
+01-23 20:14:19	output_path: results/TargetNet-evaluation/
+01-23 20:14:19	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 20:14:20	start loading datasets
+01-23 20:53:16	##### arguments #####
+01-23 20:53:16	data_config: config/data/miRAW_eval.json
+01-23 20:53:16	-- with_esa: True
+01-23 20:53:16	-- path: {'test0': 'data/test_test.txt'}
+01-23 20:53:16	model_config: config/model/TargetNet.json
+01-23 20:53:17	-- skip_connection: True
+01-23 20:53:17	-- num_channels: [16, 16, 32]
+01-23 20:53:17	-- num_blocks: [2, 1, 1]
+01-23 20:53:17	-- stem_kernel_size: 5
+01-23 20:53:17	-- block_kernel_size: 3
+01-23 20:53:17	-- pool_size: 3
+01-23 20:53:17	run_config: config/run/run.json
+01-23 20:53:17	-- batch_size_eval: 256
+01-23 20:53:17	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 20:53:17	device: cuda (1 GPUs)
+01-23 20:53:17	output_path: results/TargetNet-evaluation/
+01-23 20:53:17	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 20:53:17	start loading datasets
+01-23 20:55:17	loaded 541526 test0 samples
+01-23 20:55:17	elapsed time: 0:02:00.093777
+
+01-23 20:55:17	start initializing a model
+01-23 20:55:17	end initializing a model
+01-23 20:55:17	elapsed time: 0:00:00.015616
+
+01-23 20:55:17	start setting trainer configurations
+01-23 20:55:17	loading a model state_dict from the checkpoint
+01-23 20:55:17	end setting trainer configurations
+01-23 20:55:17	elapsed time: 0:00:00.395033
+
+01-23 20:55:17	start evaluating a model
+01-23 20:55:17	processing test0
+01-23 22:25:32	##### arguments #####
+01-23 22:25:32	data_config: config/data/miRAW_eval.json
+01-23 22:25:32	-- with_esa: True
+01-23 22:25:32	-- path: {'test0': 'data/test_test.txt'}
+01-23 22:25:32	model_config: config/model/TargetNet.json
+01-23 22:25:32	-- skip_connection: True
+01-23 22:25:32	-- num_channels: [16, 16, 32]
+01-23 22:25:32	-- num_blocks: [2, 1, 1]
+01-23 22:25:32	-- stem_kernel_size: 5
+01-23 22:25:32	-- block_kernel_size: 3
+01-23 22:25:32	-- pool_size: 3
+01-23 22:25:32	run_config: config/run/run.json
+01-23 22:25:32	-- batch_size_eval: 256
+01-23 22:25:32	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 22:25:32	device: cuda (1 GPUs)
+01-23 22:25:32	output_path: results/TargetNet-evaluation/
+01-23 22:25:32	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 22:25:33	start loading datasets
+01-23 22:38:52	##### arguments #####
+01-23 22:38:52	data_config: config/data/miRAW_eval.json
+01-23 22:38:52	-- with_esa: True
+01-23 22:38:52	-- path: {'test0': 'data/test_test.txt'}
+01-23 22:38:52	model_config: config/model/TargetNet.json
+01-23 22:38:52	-- skip_connection: True
+01-23 22:38:52	-- num_channels: [16, 16, 32]
+01-23 22:38:52	-- num_blocks: [2, 1, 1]
+01-23 22:38:52	-- stem_kernel_size: 5
+01-23 22:38:52	-- block_kernel_size: 3
+01-23 22:38:52	-- pool_size: 3
+01-23 22:38:52	run_config: config/run/run.json
+01-23 22:38:52	-- batch_size_eval: 256
+01-23 22:38:52	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 22:38:52	device: cuda (1 GPUs)
+01-23 22:38:52	output_path: results/TargetNet-evaluation/
+01-23 22:38:52	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 22:38:52	start loading datasets
+01-23 22:38:54	loaded 10732 test0 samples
+01-23 22:38:54	elapsed time: 0:00:01.931999
+
+01-23 22:38:54	start initializing a model
+01-23 22:38:54	end initializing a model
+01-23 22:38:54	elapsed time: 0:00:00.014999
+
+01-23 22:38:54	start setting trainer configurations
+01-23 22:38:54	loading a model state_dict from the checkpoint
+01-23 22:38:54	end setting trainer configurations
+01-23 22:38:54	elapsed time: 0:00:00.127000
+
+01-23 22:38:54	start evaluating a model
+01-23 22:38:54	processing test0
+01-23 22:42:44	##### arguments #####
+01-23 22:42:44	data_config: config/data/miRAW_eval.json
+01-23 22:42:44	-- with_esa: True
+01-23 22:42:44	-- path: {'test0': 'data/test_test.txt'}
+01-23 22:42:44	model_config: config/model/TargetNet.json
+01-23 22:42:44	-- skip_connection: True
+01-23 22:42:44	-- num_channels: [16, 16, 32]
+01-23 22:42:44	-- num_blocks: [2, 1, 1]
+01-23 22:42:44	-- stem_kernel_size: 5
+01-23 22:42:44	-- block_kernel_size: 3
+01-23 22:42:44	-- pool_size: 3
+01-23 22:42:44	run_config: config/run/run.json
+01-23 22:42:44	-- batch_size_eval: 32
+01-23 22:42:44	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 22:42:44	device: cuda (1 GPUs)
+01-23 22:42:44	output_path: results/TargetNet-evaluation/
+01-23 22:42:44	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 22:42:44	start loading datasets
+01-23 22:42:46	loaded 10732 test0 samples
+01-23 22:42:46	elapsed time: 0:00:01.944015
+
+01-23 22:42:46	start initializing a model
+01-23 22:42:46	end initializing a model
+01-23 22:42:46	elapsed time: 0:00:00.003986
+
+01-23 22:42:46	start setting trainer configurations
+01-23 22:42:46	loading a model state_dict from the checkpoint
+01-23 22:42:46	end setting trainer configurations
+01-23 22:42:46	elapsed time: 0:00:00.001999
+
+01-23 22:42:46	start evaluating a model
+01-23 22:42:46	processing test0
+01-23 22:44:09	##### arguments #####
+01-23 22:44:09	data_config: config/data/miRAW_eval.json
+01-23 22:44:09	-- with_esa: True
+01-23 22:44:09	-- path: {'test0': 'data/test_test.txt'}
+01-23 22:44:09	model_config: config/model/TargetNet.json
+01-23 22:44:09	-- skip_connection: True
+01-23 22:44:09	-- num_channels: [16, 16, 32]
+01-23 22:44:09	-- num_blocks: [2, 1, 1]
+01-23 22:44:09	-- stem_kernel_size: 5
+01-23 22:44:09	-- block_kernel_size: 3
+01-23 22:44:09	-- pool_size: 3
+01-23 22:44:09	run_config: config/run/run.json
+01-23 22:44:09	-- batch_size_eval: 16
+01-23 22:44:09	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 22:44:09	device: cuda (1 GPUs)
+01-23 22:44:09	output_path: results/TargetNet-evaluation/
+01-23 22:44:09	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 22:44:09	start loading datasets
+01-23 22:44:11	loaded 10732 test0 samples
+01-23 22:44:11	elapsed time: 0:00:01.925999
+
+01-23 22:44:11	start initializing a model
+01-23 22:44:11	end initializing a model
+01-23 22:44:11	elapsed time: 0:00:00.004004
+
+01-23 22:44:11	start setting trainer configurations
+01-23 22:44:11	loading a model state_dict from the checkpoint
+01-23 22:44:11	end setting trainer configurations
+01-23 22:44:11	elapsed time: 0:00:00.002999
+
+01-23 22:44:11	start evaluating a model
+01-23 22:44:11	processing test0
+01-23 22:52:20	##### arguments #####
+01-23 22:52:20	data_config: config/data/miRAW_eval.json
+01-23 22:52:20	-- with_esa: True
+01-23 22:52:20	-- path: {'test0': 'data/test_test.txt'}
+01-23 22:52:20	model_config: config/model/TargetNet.json
+01-23 22:52:20	-- skip_connection: True
+01-23 22:52:20	-- num_channels: [16, 16, 32]
+01-23 22:52:20	-- num_blocks: [2, 1, 1]
+01-23 22:52:20	-- stem_kernel_size: 5
+01-23 22:52:20	-- block_kernel_size: 3
+01-23 22:52:20	-- pool_size: 3
+01-23 22:52:20	run_config: config/run/run.json
+01-23 22:52:20	-- batch_size_eval: 8
+01-23 22:52:20	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 22:52:20	device: cuda (1 GPUs)
+01-23 22:52:20	output_path: results/TargetNet-evaluation/
+01-23 22:52:20	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 22:52:20	start loading datasets
+01-23 22:52:22	loaded 10732 test0 samples
+01-23 22:52:22	elapsed time: 0:00:01.949001
+
+01-23 22:52:22	start initializing a model
+01-23 22:52:22	end initializing a model
+01-23 22:52:22	elapsed time: 0:00:00.003001
+
+01-23 22:52:22	start setting trainer configurations
+01-23 22:52:22	loading a model state_dict from the checkpoint
+01-23 22:52:22	end setting trainer configurations
+01-23 22:52:22	elapsed time: 0:00:00.002000
+
+01-23 22:52:22	start evaluating a model
+01-23 22:52:22	processing test0
+01-23 23:39:47	##### arguments #####
+01-23 23:39:47	data_config: config/data/miRAW_eval.json
+01-23 23:39:47	-- with_esa: True
+01-23 23:39:47	-- path: {'test0': 'data/test_test.txt'}
+01-23 23:39:47	model_config: config/model/TargetNet.json
+01-23 23:39:47	-- skip_connection: True
+01-23 23:39:47	-- num_channels: [16, 16, 32]
+01-23 23:39:47	-- num_blocks: [2, 1, 1]
+01-23 23:39:47	-- stem_kernel_size: 5
+01-23 23:39:47	-- block_kernel_size: 3
+01-23 23:39:47	-- pool_size: 3
+01-23 23:39:47	run_config: config/run/run.json
+01-23 23:39:47	-- batch_size_eval: 8
+01-23 23:39:47	checkpoint: pretrained_models/TargetNet.pt
+01-23 23:39:47	device: cuda (1 GPUs)
+01-23 23:39:47	output_path: results/TargetNet-evaluation/
+01-23 23:39:47	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 23:39:47	start loading datasets
+01-23 23:39:49	loaded 10732 test0 samples
+01-23 23:39:49	elapsed time: 0:00:01.798032
+
+01-23 23:39:49	start initializing a model
+01-23 23:39:49	end initializing a model
+01-23 23:39:49	elapsed time: 0:00:00.003034
+
+01-23 23:39:49	start setting trainer configurations
+01-23 23:39:49	loading a model state_dict from the checkpoint
+01-23 23:39:49	end setting trainer configurations
+01-23 23:39:49	elapsed time: 0:00:00.037025
+
+01-23 23:39:49	start evaluating a model
+01-23 23:39:49	processing test0
+01-23 23:40:15	end evaluating a model
+01-23 23:40:15	elapsed time: 0:00:26.234390
+
+01-23 23:40:58	##### arguments #####
+01-23 23:40:58	data_config: config/data/miRAW_eval.json
+01-23 23:40:58	-- with_esa: True
+01-23 23:40:58	-- path: {'test0': 'data/test_test.txt'}
+01-23 23:40:58	model_config: config/model/TargetNet.json
+01-23 23:40:58	-- skip_connection: True
+01-23 23:40:58	-- num_channels: [16, 16, 32]
+01-23 23:40:58	-- num_blocks: [2, 1, 1]
+01-23 23:40:58	-- stem_kernel_size: 5
+01-23 23:40:58	-- block_kernel_size: 3
+01-23 23:40:58	-- pool_size: 3
+01-23 23:40:58	run_config: config/run/run.json
+01-23 23:40:58	-- batch_size_eval: 8
+01-23 23:40:58	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 23:40:58	device: cuda (1 GPUs)
+01-23 23:40:58	output_path: results/TargetNet-evaluation/
+01-23 23:40:58	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 23:40:58	start loading datasets
+01-23 23:41:00	loaded 10732 test0 samples
+01-23 23:41:00	elapsed time: 0:00:01.769000
+
+01-23 23:41:00	start initializing a model
+01-23 23:41:00	end initializing a model
+01-23 23:41:00	elapsed time: 0:00:00.004036
+
+01-23 23:41:00	start setting trainer configurations
+01-23 23:41:00	loading a model state_dict from the checkpoint
+01-23 23:41:00	end setting trainer configurations
+01-23 23:41:00	elapsed time: 0:00:00.128406
+
+01-23 23:41:00	start evaluating a model
+01-23 23:41:00	processing test0
+01-23 23:41:24	end evaluating a model
+01-23 23:41:24	elapsed time: 0:00:23.680595
+
+01-23 23:41:46	##### arguments #####
+01-23 23:41:46	data_config: config/data/miRAW_eval.json
+01-23 23:41:46	-- with_esa: True
+01-23 23:41:46	-- path: {'test0': 'data/test_test.txt'}
+01-23 23:41:46	model_config: config/model/TargetNet.json
+01-23 23:41:46	-- skip_connection: True
+01-23 23:41:46	-- num_channels: [16, 16, 32]
+01-23 23:41:46	-- num_blocks: [2, 1, 1]
+01-23 23:41:46	-- stem_kernel_size: 5
+01-23 23:41:46	-- block_kernel_size: 3
+01-23 23:41:46	-- pool_size: 3
+01-23 23:41:46	run_config: config/run/run.json
+01-23 23:41:46	-- batch_size_eval: 256
+01-23 23:41:46	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 23:41:46	device: cuda (1 GPUs)
+01-23 23:41:46	output_path: results/TargetNet-evaluation/
+01-23 23:41:46	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 23:41:46	start loading datasets
+01-23 23:41:48	loaded 10732 test0 samples
+01-23 23:41:48	elapsed time: 0:00:01.760037
+
+01-23 23:41:48	start initializing a model
+01-23 23:41:48	end initializing a model
+01-23 23:41:48	elapsed time: 0:00:00.002964
+
+01-23 23:41:48	start setting trainer configurations
+01-23 23:41:48	loading a model state_dict from the checkpoint
+01-23 23:41:48	end setting trainer configurations
+01-23 23:41:48	elapsed time: 0:00:00.003001
+
+01-23 23:41:48	start evaluating a model
+01-23 23:41:48	processing test0
+01-23 23:42:08	end evaluating a model
+01-23 23:42:08	elapsed time: 0:00:19.609437
+
+01-23 23:46:22	##### arguments #####
+01-23 23:46:22	data_config: config/data/miRAW_eval.json
+01-23 23:46:22	-- with_esa: True
+01-23 23:46:22	-- path: {'test0': 'data/test_test.txt'}
+01-23 23:46:22	model_config: config/model/TargetNet.json
+01-23 23:46:22	-- skip_connection: True
+01-23 23:46:22	-- num_channels: [16, 16, 32]
+01-23 23:46:22	-- num_blocks: [2, 1, 1]
+01-23 23:46:22	-- stem_kernel_size: 5
+01-23 23:46:22	-- block_kernel_size: 3
+01-23 23:46:22	-- pool_size: 3
+01-23 23:46:22	run_config: config/run/run.json
+01-23 23:46:22	-- batch_size_eval: 256
+01-23 23:46:22	checkpoint: results/TargetNet_training/TargetNet.pt
+01-23 23:46:22	device: cuda (1 GPUs)
+01-23 23:46:22	output_path: results/TargetNet-evaluation/
+01-23 23:46:22	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+01-23 23:46:22	start loading datasets
+01-23 23:48:39	loaded 746781 test0 samples
+01-23 23:48:39	elapsed time: 0:02:17.023935
+
+01-23 23:48:39	start initializing a model
+01-23 23:48:39	end initializing a model
+01-23 23:48:39	elapsed time: 0:00:00.002044
+
+01-23 23:48:39	start setting trainer configurations
+01-23 23:48:39	loading a model state_dict from the checkpoint
+01-23 23:48:39	end setting trainer configurations
+01-23 23:48:39	elapsed time: 0:00:00.003961
+
+01-23 23:48:39	start evaluating a model
+01-23 23:48:39	processing test0
+02-05 22:00:04	##### arguments #####
+02-05 22:00:04	data_config: config/data/miRAW_eval.json
+02-05 22:00:04	-- with_esa: True
+02-05 22:00:04	-- path: {'test0': 'data/test_test.txt'}
+02-05 22:00:04	model_config: config/model/TargetNet.json
+02-05 22:00:04	-- skip_connection: True
+02-05 22:00:04	-- num_channels: [16, 16, 32]
+02-05 22:00:04	-- num_blocks: [2, 1, 1]
+02-05 22:00:04	-- stem_kernel_size: 5
+02-05 22:00:04	-- block_kernel_size: 3
+02-05 22:00:04	-- pool_size: 3
+02-05 22:00:04	run_config: config/run/run.json
+02-05 22:00:04	-- batch_size_eval: 256
+02-05 22:00:04	checkpoint: pretrained_models/TargetNet.pt
+02-05 22:00:04	device: cuda (1 GPUs)
+02-05 22:00:04	output_path: results/TargetNet-evaluation/
+02-05 22:00:04	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 22:00:05	start loading datasets
+02-05 22:00:07	loaded 15414 test0 samples
+02-05 22:00:07	elapsed time: 0:00:02.792091
+
+02-05 22:00:07	start initializing a model
+02-05 22:00:07	end initializing a model
+02-05 22:00:07	elapsed time: 0:00:00.052778
+
+02-05 22:00:07	start setting trainer configurations
+02-05 22:00:07	loading a model state_dict from the checkpoint
+02-05 22:00:08	end setting trainer configurations
+02-05 22:00:08	elapsed time: 0:00:00.118545
+
+02-05 22:00:08	start evaluating a model
+02-05 22:00:08	processing test0
+02-05 22:00:51	end evaluating a model
+02-05 22:00:51	elapsed time: 0:00:43.248516
+
+02-05 22:02:03	##### arguments #####
+02-05 22:02:03	data_config: config/data/miRAW_eval.json
+02-05 22:02:03	-- with_esa: True
+02-05 22:02:03	-- path: {'test0': 'data/test_test.txt'}
+02-05 22:02:03	model_config: config/model/TargetNet.json
+02-05 22:02:03	-- skip_connection: True
+02-05 22:02:03	-- num_channels: [16, 16, 32]
+02-05 22:02:03	-- num_blocks: [2, 1, 1]
+02-05 22:02:03	-- stem_kernel_size: 5
+02-05 22:02:03	-- block_kernel_size: 3
+02-05 22:02:03	-- pool_size: 3
+02-05 22:02:03	run_config: config/run/run.json
+02-05 22:02:03	-- batch_size_eval: 256
+02-05 22:02:03	checkpoint: pretrained_models/TargetNet.pt
+02-05 22:02:03	device: cuda (1 GPUs)
+02-05 22:02:03	output_path: results/TargetNet-evaluation/
+02-05 22:02:03	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 22:02:04	start loading datasets
+02-05 22:02:06	loaded 12972 test0 samples
+02-05 22:02:06	elapsed time: 0:00:02.404683
+
+02-05 22:02:06	start initializing a model
+02-05 22:02:06	end initializing a model
+02-05 22:02:06	elapsed time: 0:00:00.002629
+
+02-05 22:02:06	start setting trainer configurations
+02-05 22:02:06	loading a model state_dict from the checkpoint
+02-05 22:02:06	end setting trainer configurations
+02-05 22:02:06	elapsed time: 0:00:00.003133
+
+02-05 22:02:06	start evaluating a model
+02-05 22:02:06	processing test0
+02-05 22:02:39	end evaluating a model
+02-05 22:02:39	elapsed time: 0:00:33.338246
+
+02-05 22:04:11	##### arguments #####
+02-05 22:04:11	data_config: config/data/miRAW_eval.json
+02-05 22:04:11	-- with_esa: True
+02-05 22:04:11	-- path: {'test0': 'data/test_test.txt'}
+02-05 22:04:11	model_config: config/model/TargetNet.json
+02-05 22:04:11	-- skip_connection: True
+02-05 22:04:11	-- num_channels: [16, 16, 32]
+02-05 22:04:11	-- num_blocks: [2, 1, 1]
+02-05 22:04:11	-- stem_kernel_size: 5
+02-05 22:04:11	-- block_kernel_size: 3
+02-05 22:04:11	-- pool_size: 3
+02-05 22:04:11	run_config: config/run/run.json
+02-05 22:04:11	-- batch_size_eval: 256
+02-05 22:04:11	checkpoint: pretrained_models/TargetNet.pt
+02-05 22:04:11	device: cuda (1 GPUs)
+02-05 22:04:11	output_path: results/TargetNet-evaluation/
+02-05 22:04:11	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 22:04:11	start loading datasets
+02-05 22:04:13	loaded 11332 test0 samples
+02-05 22:04:13	elapsed time: 0:00:01.981383
+
+02-05 22:04:13	start initializing a model
+02-05 22:04:13	end initializing a model
+02-05 22:04:13	elapsed time: 0:00:00.002074
+
+02-05 22:04:13	start setting trainer configurations
+02-05 22:04:13	loading a model state_dict from the checkpoint
+02-05 22:04:13	end setting trainer configurations
+02-05 22:04:13	elapsed time: 0:00:00.003515
+
+02-05 22:04:13	start evaluating a model
+02-05 22:04:13	processing test0
+02-05 22:04:43	end evaluating a model
+02-05 22:04:43	elapsed time: 0:00:30.363649
+
+02-05 23:31:10	##### arguments #####
+02-05 23:31:10	data_config: config/data/miRAW_eval.json
+02-05 23:31:10	-- with_esa: True
+02-05 23:31:10	-- path: {'test0': 'data/test_test.txt'}
+02-05 23:31:10	model_config: config/model/TargetNet.json
+02-05 23:31:10	-- skip_connection: True
+02-05 23:31:10	-- num_channels: [16, 16, 32]
+02-05 23:31:10	-- num_blocks: [2, 1, 1]
+02-05 23:31:10	-- stem_kernel_size: 5
+02-05 23:31:10	-- block_kernel_size: 3
+02-05 23:31:10	-- pool_size: 3
+02-05 23:31:10	run_config: config/run/run.json
+02-05 23:31:10	-- batch_size_eval: 256
+02-05 23:31:10	checkpoint: pretrained_models/TargetNet.pt
+02-05 23:31:10	device: cuda (1 GPUs)
+02-05 23:31:10	output_path: results/TargetNet-evaluation/
+02-05 23:31:10	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 23:31:11	start loading datasets
+02-05 23:31:13	loaded 11334 test0 samples
+02-05 23:31:13	elapsed time: 0:00:02.132270
+
+02-05 23:31:13	start initializing a model
+02-05 23:31:13	end initializing a model
+02-05 23:31:13	elapsed time: 0:00:00.001966
+
+02-05 23:31:13	start setting trainer configurations
+02-05 23:31:13	loading a model state_dict from the checkpoint
+02-05 23:31:13	end setting trainer configurations
+02-05 23:31:13	elapsed time: 0:00:00.001998
+
+02-05 23:31:13	start evaluating a model
+02-05 23:31:13	processing test0
+02-05 23:31:40	end evaluating a model
+02-05 23:31:40	elapsed time: 0:00:27.464978
+
+02-05 23:32:20	##### arguments #####
+02-05 23:32:20	data_config: config/data/miRAW_eval.json
+02-05 23:32:20	-- with_esa: True
+02-05 23:32:20	-- path: {'test0': 'data/test_test.txt'}
+02-05 23:32:20	model_config: config/model/TargetNet.json
+02-05 23:32:20	-- skip_connection: True
+02-05 23:32:20	-- num_channels: [16, 16, 32]
+02-05 23:32:20	-- num_blocks: [2, 1, 1]
+02-05 23:32:20	-- stem_kernel_size: 5
+02-05 23:32:20	-- block_kernel_size: 3
+02-05 23:32:20	-- pool_size: 3
+02-05 23:32:20	run_config: config/run/run.json
+02-05 23:32:20	-- batch_size_eval: 256
+02-05 23:32:20	checkpoint: pretrained_models/TargetNet.pt
+02-05 23:32:20	device: cuda (1 GPUs)
+02-05 23:32:20	output_path: results/TargetNet-evaluation/
+02-05 23:32:20	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 23:32:20	start loading datasets
+02-05 23:32:22	loaded 11334 test0 samples
+02-05 23:32:22	elapsed time: 0:00:01.933836
+
+02-05 23:32:22	start initializing a model
+02-05 23:32:22	end initializing a model
+02-05 23:32:22	elapsed time: 0:00:00.002039
+
+02-05 23:32:22	start setting trainer configurations
+02-05 23:32:22	loading a model state_dict from the checkpoint
+02-05 23:32:22	end setting trainer configurations
+02-05 23:32:22	elapsed time: 0:00:00.002962
+
+02-05 23:32:22	start evaluating a model
+02-05 23:32:22	processing test0
+02-05 23:32:48	end evaluating a model
+02-05 23:32:48	elapsed time: 0:00:26.324702
+
+02-05 23:34:15	##### arguments #####
+02-05 23:34:15	data_config: config/data/miRAW_eval.json
+02-05 23:34:15	-- with_esa: True
+02-05 23:34:15	-- path: {'test0': 'data/test_test.txt'}
+02-05 23:34:15	model_config: config/model/TargetNet.json
+02-05 23:34:15	-- skip_connection: True
+02-05 23:34:15	-- num_channels: [16, 16, 32]
+02-05 23:34:15	-- num_blocks: [2, 1, 1]
+02-05 23:34:15	-- stem_kernel_size: 5
+02-05 23:34:15	-- block_kernel_size: 3
+02-05 23:34:15	-- pool_size: 3
+02-05 23:34:15	run_config: config/run/run.json
+02-05 23:34:15	-- batch_size_eval: 256
+02-05 23:34:15	checkpoint: pretrained_models/TargetNet.pt
+02-05 23:34:15	device: cuda (1 GPUs)
+02-05 23:34:15	output_path: results/TargetNet-evaluation/
+02-05 23:34:15	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 23:34:15	start loading datasets
+02-05 23:34:17	loaded 10986 test0 samples
+02-05 23:34:17	elapsed time: 0:00:01.910412
+
+02-05 23:34:17	start initializing a model
+02-05 23:34:17	end initializing a model
+02-05 23:34:17	elapsed time: 0:00:00.002034
+
+02-05 23:34:17	start setting trainer configurations
+02-05 23:34:17	loading a model state_dict from the checkpoint
+02-05 23:34:17	end setting trainer configurations
+02-05 23:34:17	elapsed time: 0:00:00.002004
+
+02-05 23:34:17	start evaluating a model
+02-05 23:34:17	processing test0
+02-05 23:34:44	end evaluating a model
+02-05 23:34:44	elapsed time: 0:00:27.206831
+
+02-05 23:35:55	##### arguments #####
+02-05 23:35:55	data_config: config/data/miRAW_eval.json
+02-05 23:35:55	-- with_esa: True
+02-05 23:35:55	-- path: {'test0': 'data/test_test.txt'}
+02-05 23:35:55	model_config: config/model/TargetNet.json
+02-05 23:35:55	-- skip_connection: True
+02-05 23:35:55	-- num_channels: [16, 16, 32]
+02-05 23:35:55	-- num_blocks: [2, 1, 1]
+02-05 23:35:55	-- stem_kernel_size: 5
+02-05 23:35:55	-- block_kernel_size: 3
+02-05 23:35:55	-- pool_size: 3
+02-05 23:35:55	run_config: config/run/run.json
+02-05 23:35:55	-- batch_size_eval: 256
+02-05 23:35:55	checkpoint: pretrained_models/TargetNet.pt
+02-05 23:35:55	device: cuda (1 GPUs)
+02-05 23:35:55	output_path: results/TargetNet-evaluation/
+02-05 23:35:55	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 23:35:56	start loading datasets
+02-05 23:35:58	loaded 11333 test0 samples
+02-05 23:35:58	elapsed time: 0:00:01.964441
+
+02-05 23:35:58	start initializing a model
+02-05 23:35:58	end initializing a model
+02-05 23:35:58	elapsed time: 0:00:00.002037
+
+02-05 23:35:58	start setting trainer configurations
+02-05 23:35:58	loading a model state_dict from the checkpoint
+02-05 23:35:58	end setting trainer configurations
+02-05 23:35:58	elapsed time: 0:00:00.001999
+
+02-05 23:35:58	start evaluating a model
+02-05 23:35:58	processing test0
+02-05 23:36:27	end evaluating a model
+02-05 23:36:27	elapsed time: 0:00:29.112623
+
+02-05 23:55:45	##### arguments #####
+02-05 23:55:45	data_config: config/data/miRAW_eval.json
+02-05 23:55:45	-- with_esa: True
+02-05 23:55:45	-- path: {'test0': 'data/test_test.txt'}
+02-05 23:55:45	model_config: config/model/TargetNet.json
+02-05 23:55:45	-- skip_connection: True
+02-05 23:55:45	-- num_channels: [16, 16, 32]
+02-05 23:55:45	-- num_blocks: [2, 1, 1]
+02-05 23:55:45	-- stem_kernel_size: 5
+02-05 23:55:45	-- block_kernel_size: 3
+02-05 23:55:45	-- pool_size: 3
+02-05 23:55:45	run_config: config/run/run.json
+02-05 23:55:45	-- batch_size_eval: 256
+02-05 23:55:45	checkpoint: pretrained_models/TargetNet.pt
+02-05 23:55:45	device: cuda (1 GPUs)
+02-05 23:55:45	output_path: results/TargetNet-evaluation/
+02-05 23:55:45	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-05 23:55:46	start loading datasets
+02-05 23:55:48	loaded 11333 test0 samples
+02-05 23:55:48	elapsed time: 0:00:01.990439
+
+02-05 23:55:48	start initializing a model
+02-05 23:55:48	end initializing a model
+02-05 23:55:48	elapsed time: 0:00:00.002033
+
+02-05 23:55:48	start setting trainer configurations
+02-05 23:55:48	loading a model state_dict from the checkpoint
+02-05 23:55:48	end setting trainer configurations
+02-05 23:55:48	elapsed time: 0:00:00.002000
+
+02-05 23:55:48	start evaluating a model
+02-05 23:55:48	processing test0
+02-05 23:56:15	end evaluating a model
+02-05 23:56:15	elapsed time: 0:00:27.281803
+
+02-06 00:01:30	##### arguments #####
+02-06 00:01:30	data_config: config/data/miRAW_eval.json
+02-06 00:01:30	-- with_esa: True
+02-06 00:01:30	-- path: {'test0': 'data/test_test.txt'}
+02-06 00:01:30	model_config: config/model/TargetNet.json
+02-06 00:01:30	-- skip_connection: True
+02-06 00:01:30	-- num_channels: [16, 16, 32]
+02-06 00:01:30	-- num_blocks: [2, 1, 1]
+02-06 00:01:30	-- stem_kernel_size: 5
+02-06 00:01:30	-- block_kernel_size: 3
+02-06 00:01:30	-- pool_size: 3
+02-06 00:01:30	run_config: config/run/run.json
+02-06 00:01:30	-- batch_size_eval: 256
+02-06 00:01:30	checkpoint: pretrained_models/TargetNet.pt
+02-06 00:01:30	device: cuda (1 GPUs)
+02-06 00:01:30	output_path: results/TargetNet-evaluation/
+02-06 00:01:30	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-06 00:01:30	start loading datasets
+02-06 00:01:32	loaded 11333 test0 samples
+02-06 00:01:32	elapsed time: 0:00:01.858435
+
+02-06 00:01:32	start initializing a model
+02-06 00:01:32	end initializing a model
+02-06 00:01:32	elapsed time: 0:00:00.002041
+
+02-06 00:01:32	start setting trainer configurations
+02-06 00:01:32	loading a model state_dict from the checkpoint
+02-06 00:01:32	end setting trainer configurations
+02-06 00:01:32	elapsed time: 0:00:00.001998
+
+02-06 00:01:32	start evaluating a model
+02-06 00:01:32	processing test0
+02-06 00:01:59	end evaluating a model
+02-06 00:01:59	elapsed time: 0:00:26.760927
+
+02-06 00:23:06	##### arguments #####
+02-06 00:23:06	data_config: config/data/miRAW_eval.json
+02-06 00:23:06	-- with_esa: True
+02-06 00:23:06	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-06 00:23:06	model_config: config/model/TargetNet.json
+02-06 00:23:06	-- skip_connection: True
+02-06 00:23:06	-- num_channels: [16, 16, 32]
+02-06 00:23:06	-- num_blocks: [2, 1, 1]
+02-06 00:23:06	-- stem_kernel_size: 5
+02-06 00:23:06	-- block_kernel_size: 3
+02-06 00:23:06	-- pool_size: 3
+02-06 00:23:06	run_config: config/run/run.json
+02-06 00:23:06	-- batch_size_eval: 256
+02-06 00:23:06	checkpoint: pretrained_models/TargetNet.pt
+02-06 00:23:06	device: cuda (1 GPUs)
+02-06 00:23:06	output_path: results/TargetNet-evaluation/
+02-06 00:23:06	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-06 00:23:06	start loading datasets
+02-06 00:23:08	loaded 11333 test0 samples
+02-06 00:23:09	loaded 2442 test1 samples
+02-06 00:23:09	elapsed time: 0:00:02.411079
+
+02-06 00:23:09	start initializing a model
+02-06 00:23:09	end initializing a model
+02-06 00:23:09	elapsed time: 0:00:00.003032
+
+02-06 00:23:09	start setting trainer configurations
+02-06 00:23:09	loading a model state_dict from the checkpoint
+02-06 00:23:09	end setting trainer configurations
+02-06 00:23:09	elapsed time: 0:00:00.002144
+
+02-06 00:23:09	start evaluating a model
+02-06 00:23:09	processing test0
+02-06 00:23:35	processing test1
+02-06 00:23:44	end evaluating a model
+02-06 00:23:44	elapsed time: 0:00:35.446517
+
+02-07 14:13:57	##### arguments #####
+02-07 14:13:57	data_config: config/data/miRAW_eval.json
+02-07 14:13:57	-- with_esa: True
+02-07 14:13:57	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:13:57	model_config: config/model/TargetNet.json
+02-07 14:13:57	-- skip_connection: True
+02-07 14:13:57	-- num_channels: [16, 16, 32]
+02-07 14:13:57	-- num_blocks: [2, 1, 1]
+02-07 14:13:57	-- stem_kernel_size: 5
+02-07 14:13:57	-- block_kernel_size: 3
+02-07 14:13:57	-- pool_size: 3
+02-07 14:13:57	run_config: config/run/run.json
+02-07 14:13:57	-- batch_size_eval: 256
+02-07 14:13:57	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:13:57	device: cuda (1 GPUs)
+02-07 14:13:57	output_path: results/TargetNet-evaluation/
+02-07 14:13:57	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:13:57	start loading datasets
+02-07 14:13:59	loaded 11333 test0 samples
+02-07 14:14:00	loaded 2442 test1 samples
+02-07 14:14:00	elapsed time: 0:00:02.697657
+
+02-07 14:14:00	start initializing a model
+02-07 14:14:00	end initializing a model
+02-07 14:14:00	elapsed time: 0:00:00.059846
+
+02-07 14:14:00	start setting trainer configurations
+02-07 14:14:00	loading a model state_dict from the checkpoint
+02-07 14:14:00	end setting trainer configurations
+02-07 14:14:00	elapsed time: 0:00:00.042825
+
+02-07 14:14:36	##### arguments #####
+02-07 14:14:36	data_config: config/data/miRAW_eval.json
+02-07 14:14:36	-- with_esa: True
+02-07 14:14:36	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:14:36	model_config: config/model/TargetNet.json
+02-07 14:14:36	-- skip_connection: True
+02-07 14:14:36	-- num_channels: [16, 16, 32]
+02-07 14:14:36	-- num_blocks: [2, 1, 1]
+02-07 14:14:36	-- stem_kernel_size: 5
+02-07 14:14:36	-- block_kernel_size: 3
+02-07 14:14:36	-- pool_size: 3
+02-07 14:14:36	run_config: config/run/run.json
+02-07 14:14:36	-- batch_size_eval: 256
+02-07 14:14:36	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:14:36	device: cuda (1 GPUs)
+02-07 14:14:36	output_path: results/TargetNet-evaluation/
+02-07 14:14:36	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:14:36	start loading datasets
+02-07 14:14:38	loaded 11333 test0 samples
+02-07 14:14:39	loaded 2442 test1 samples
+02-07 14:14:39	elapsed time: 0:00:02.614291
+
+02-07 14:14:39	start initializing a model
+02-07 14:14:39	end initializing a model
+02-07 14:14:39	elapsed time: 0:00:00.002576
+
+02-07 14:14:39	start setting trainer configurations
+02-07 14:14:39	loading a model state_dict from the checkpoint
+02-07 14:14:39	end setting trainer configurations
+02-07 14:14:39	elapsed time: 0:00:00.003007
+
+02-07 14:14:39	start evaluating a model
+02-07 14:14:39	processing test0
+02-07 14:15:09	processing test1
+02-07 14:15:17	end evaluating a model
+02-07 14:15:17	elapsed time: 0:00:38.408149
+
+02-07 14:16:53	##### arguments #####
+02-07 14:16:53	data_config: config/data/miRAW_eval.json
+02-07 14:16:53	-- with_esa: True
+02-07 14:16:53	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:16:53	model_config: config/model/TargetNet.json
+02-07 14:16:53	-- skip_connection: True
+02-07 14:16:53	-- num_channels: [16, 16, 32]
+02-07 14:16:53	-- num_blocks: [2, 1, 1]
+02-07 14:16:53	-- stem_kernel_size: 5
+02-07 14:16:53	-- block_kernel_size: 3
+02-07 14:16:53	-- pool_size: 3
+02-07 14:16:53	run_config: config/run/run.json
+02-07 14:16:53	-- batch_size_eval: 256
+02-07 14:16:53	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:16:53	device: cuda (1 GPUs)
+02-07 14:16:53	output_path: results/TargetNet-evaluation/
+02-07 14:16:53	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:16:53	start loading datasets
+02-07 14:16:55	loaded 11333 test0 samples
+02-07 14:16:55	loaded 2442 test1 samples
+02-07 14:16:55	elapsed time: 0:00:02.365137
+
+02-07 14:16:55	start initializing a model
+02-07 14:16:55	end initializing a model
+02-07 14:16:55	elapsed time: 0:00:00.002035
+
+02-07 14:16:55	start setting trainer configurations
+02-07 14:16:55	loading a model state_dict from the checkpoint
+02-07 14:16:55	end setting trainer configurations
+02-07 14:16:55	elapsed time: 0:00:00.001626
+
+02-07 14:16:55	start evaluating a model
+02-07 14:16:55	processing test0
+02-07 14:17:18	processing test1
+02-07 14:17:27	end evaluating a model
+02-07 14:17:27	elapsed time: 0:00:31.633698
+
+02-07 14:19:11	##### arguments #####
+02-07 14:19:11	data_config: config/data/miRAW_eval.json
+02-07 14:19:11	-- with_esa: True
+02-07 14:19:11	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:19:11	model_config: config/model/TargetNet.json
+02-07 14:19:11	-- skip_connection: True
+02-07 14:19:11	-- num_channels: [16, 16, 32]
+02-07 14:19:11	-- num_blocks: [2, 1, 1]
+02-07 14:19:11	-- stem_kernel_size: 5
+02-07 14:19:11	-- block_kernel_size: 3
+02-07 14:19:11	-- pool_size: 3
+02-07 14:19:11	run_config: config/run/run.json
+02-07 14:19:11	-- batch_size_eval: 256
+02-07 14:19:11	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:19:11	device: cuda (1 GPUs)
+02-07 14:19:11	output_path: results/TargetNet-evaluation/
+02-07 14:19:11	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:19:11	start loading datasets
+02-07 14:19:13	loaded 11333 test0 samples
+02-07 14:19:14	loaded 2442 test1 samples
+02-07 14:19:14	elapsed time: 0:00:02.409202
+
+02-07 14:19:14	start initializing a model
+02-07 14:19:14	end initializing a model
+02-07 14:19:14	elapsed time: 0:00:00.003031
+
+02-07 14:19:14	start setting trainer configurations
+02-07 14:19:14	loading a model state_dict from the checkpoint
+02-07 14:19:14	end setting trainer configurations
+02-07 14:19:14	elapsed time: 0:00:00.002965
+
+02-07 14:19:14	start evaluating a model
+02-07 14:19:14	processing test0
+02-07 14:19:39	processing test1
+02-07 14:19:48	end evaluating a model
+02-07 14:19:48	elapsed time: 0:00:33.797790
+
+02-07 14:20:17	##### arguments #####
+02-07 14:20:17	data_config: config/data/miRAW_eval.json
+02-07 14:20:17	-- with_esa: True
+02-07 14:20:17	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:20:17	model_config: config/model/TargetNet.json
+02-07 14:20:17	-- skip_connection: True
+02-07 14:20:17	-- num_channels: [16, 16, 32]
+02-07 14:20:17	-- num_blocks: [2, 1, 1]
+02-07 14:20:17	-- stem_kernel_size: 5
+02-07 14:20:17	-- block_kernel_size: 3
+02-07 14:20:17	-- pool_size: 3
+02-07 14:20:17	run_config: config/run/run.json
+02-07 14:20:17	-- batch_size_eval: 256
+02-07 14:20:17	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:20:17	device: cuda (1 GPUs)
+02-07 14:20:17	output_path: results/TargetNet-evaluation/
+02-07 14:20:17	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:20:17	start loading datasets
+02-07 14:20:19	loaded 11333 test0 samples
+02-07 14:20:20	loaded 2442 test1 samples
+02-07 14:20:20	elapsed time: 0:00:02.400008
+
+02-07 14:20:20	start initializing a model
+02-07 14:20:20	end initializing a model
+02-07 14:20:20	elapsed time: 0:00:00.003034
+
+02-07 14:20:20	start setting trainer configurations
+02-07 14:20:20	loading a model state_dict from the checkpoint
+02-07 14:20:20	end setting trainer configurations
+02-07 14:20:20	elapsed time: 0:00:00.002971
+
+02-07 14:20:20	start evaluating a model
+02-07 14:20:20	processing test0
+02-07 14:20:44	processing test1
+02-07 14:20:52	end evaluating a model
+02-07 14:20:52	elapsed time: 0:00:31.928461
+
+02-07 14:28:56	##### arguments #####
+02-07 14:28:56	data_config: config/data/miRAW_eval.json
+02-07 14:28:56	-- with_esa: True
+02-07 14:28:56	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:28:56	model_config: config/model/TargetNet.json
+02-07 14:28:56	-- skip_connection: True
+02-07 14:28:56	-- num_channels: [16, 16, 32]
+02-07 14:28:56	-- num_blocks: [2, 1, 1]
+02-07 14:28:56	-- stem_kernel_size: 5
+02-07 14:28:56	-- block_kernel_size: 3
+02-07 14:28:56	-- pool_size: 3
+02-07 14:28:56	run_config: config/run/run.json
+02-07 14:28:56	-- batch_size_eval: 256
+02-07 14:28:56	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:28:56	device: cuda (1 GPUs)
+02-07 14:28:56	output_path: results/TargetNet-evaluation/
+02-07 14:28:56	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:28:56	start loading datasets
+02-07 14:28:58	loaded 11333 test0 samples
+02-07 14:28:58	loaded 2442 test1 samples
+02-07 14:28:58	elapsed time: 0:00:02.307294
+
+02-07 14:28:58	start initializing a model
+02-07 14:28:58	end initializing a model
+02-07 14:28:58	elapsed time: 0:00:00.002196
+
+02-07 14:28:58	start setting trainer configurations
+02-07 14:28:58	loading a model state_dict from the checkpoint
+02-07 14:28:58	end setting trainer configurations
+02-07 14:28:58	elapsed time: 0:00:00.002999
+
+02-07 14:28:58	start evaluating a model
+02-07 14:28:58	processing test0
+02-07 14:29:22	processing test1
+02-07 14:29:32	end evaluating a model
+02-07 14:29:32	elapsed time: 0:00:33.144534
+
+02-07 14:32:11	##### arguments #####
+02-07 14:32:11	data_config: config/data/miRAW_eval.json
+02-07 14:32:11	-- with_esa: True
+02-07 14:32:11	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:32:11	model_config: config/model/TargetNet.json
+02-07 14:32:11	-- skip_connection: True
+02-07 14:32:11	-- num_channels: [16, 16, 32]
+02-07 14:32:11	-- num_blocks: [2, 1, 1]
+02-07 14:32:11	-- stem_kernel_size: 5
+02-07 14:32:11	-- block_kernel_size: 3
+02-07 14:32:11	-- pool_size: 3
+02-07 14:32:11	run_config: config/run/run.json
+02-07 14:32:11	-- batch_size_eval: 256
+02-07 14:32:11	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:32:11	device: cuda (1 GPUs)
+02-07 14:32:11	output_path: results/TargetNet-evaluation/
+02-07 14:32:11	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:32:11	start loading datasets
+02-07 14:32:13	loaded 11333 test0 samples
+02-07 14:32:13	loaded 2442 test1 samples
+02-07 14:32:13	elapsed time: 0:00:02.448212
+
+02-07 14:32:13	start initializing a model
+02-07 14:32:13	end initializing a model
+02-07 14:32:13	elapsed time: 0:00:00.002039
+
+02-07 14:32:13	start setting trainer configurations
+02-07 14:32:13	loading a model state_dict from the checkpoint
+02-07 14:32:13	end setting trainer configurations
+02-07 14:32:13	elapsed time: 0:00:00.001001
+
+02-07 14:32:13	start evaluating a model
+02-07 14:32:13	processing test0
+02-07 14:32:39	processing test1
+02-07 14:32:48	end evaluating a model
+02-07 14:32:48	elapsed time: 0:00:34.779351
+
+02-07 14:35:11	##### arguments #####
+02-07 14:35:11	data_config: config/data/miRAW_eval.json
+02-07 14:35:11	-- with_esa: True
+02-07 14:35:11	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:35:11	model_config: config/model/TargetNet.json
+02-07 14:35:11	-- skip_connection: True
+02-07 14:35:11	-- num_channels: [16, 16, 32]
+02-07 14:35:11	-- num_blocks: [2, 1, 1]
+02-07 14:35:11	-- stem_kernel_size: 5
+02-07 14:35:11	-- block_kernel_size: 3
+02-07 14:35:11	-- pool_size: 3
+02-07 14:35:11	run_config: config/run/run.json
+02-07 14:35:11	-- batch_size_eval: 256
+02-07 14:35:11	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:35:11	device: cuda (1 GPUs)
+02-07 14:35:11	output_path: results/TargetNet-evaluation/
+02-07 14:35:11	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:35:11	start loading datasets
+02-07 14:35:13	loaded 11333 test0 samples
+02-07 14:35:13	loaded 2442 test1 samples
+02-07 14:35:13	elapsed time: 0:00:02.421796
+
+02-07 14:35:13	start initializing a model
+02-07 14:35:13	end initializing a model
+02-07 14:35:13	elapsed time: 0:00:00.002548
+
+02-07 14:35:13	start setting trainer configurations
+02-07 14:35:13	loading a model state_dict from the checkpoint
+02-07 14:35:13	end setting trainer configurations
+02-07 14:35:13	elapsed time: 0:00:00.002000
+
+02-07 14:35:13	start evaluating a model
+02-07 14:35:13	processing test0
+02-07 14:35:39	processing test1
+02-07 14:35:47	end evaluating a model
+02-07 14:35:47	elapsed time: 0:00:34.031382
+
+02-07 14:45:17	##### arguments #####
+02-07 14:45:17	data_config: config/data/miRAW_eval.json
+02-07 14:45:17	-- with_esa: True
+02-07 14:45:17	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 14:45:17	model_config: config/model/TargetNet.json
+02-07 14:45:17	-- skip_connection: True
+02-07 14:45:17	-- num_channels: [16, 16, 32]
+02-07 14:45:17	-- num_blocks: [2, 1, 1]
+02-07 14:45:17	-- stem_kernel_size: 5
+02-07 14:45:17	-- block_kernel_size: 3
+02-07 14:45:17	-- pool_size: 3
+02-07 14:45:17	run_config: config/run/run.json
+02-07 14:45:17	-- batch_size_eval: 256
+02-07 14:45:17	checkpoint: pretrained_models/TargetNet.pt
+02-07 14:45:17	device: cuda (1 GPUs)
+02-07 14:45:17	output_path: results/TargetNet-evaluation/
+02-07 14:45:17	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 14:45:17	start loading datasets
+02-07 14:45:19	loaded 11333 test0 samples
+02-07 14:45:19	loaded 2442 test1 samples
+02-07 14:45:19	elapsed time: 0:00:02.392269
+
+02-07 14:45:19	start initializing a model
+02-07 14:45:19	end initializing a model
+02-07 14:45:19	elapsed time: 0:00:00.003011
+
+02-07 14:45:19	start setting trainer configurations
+02-07 14:45:19	loading a model state_dict from the checkpoint
+02-07 14:45:19	end setting trainer configurations
+02-07 14:45:19	elapsed time: 0:00:00.002546
+
+02-07 14:45:19	start evaluating a model
+02-07 14:45:19	processing test0
+02-07 14:45:43	processing test1
+02-07 14:45:52	end evaluating a model
+02-07 14:45:52	elapsed time: 0:00:33.014047
+
+02-07 15:08:04	##### arguments #####
+02-07 15:08:05	data_config: config/data/miRAW_eval.json
+02-07 15:08:05	-- with_esa: True
+02-07 15:08:05	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 15:08:05	model_config: config/model/TargetNet.json
+02-07 15:08:05	-- skip_connection: True
+02-07 15:08:05	-- num_channels: [16, 16, 32]
+02-07 15:08:05	-- num_blocks: [2, 1, 1]
+02-07 15:08:05	-- stem_kernel_size: 5
+02-07 15:08:05	-- block_kernel_size: 3
+02-07 15:08:05	-- pool_size: 3
+02-07 15:08:05	run_config: config/run/run.json
+02-07 15:08:05	-- batch_size_eval: 256
+02-07 15:08:05	checkpoint: pretrained_models/TargetNet.pt
+02-07 15:08:05	device: cuda (1 GPUs)
+02-07 15:08:05	output_path: results/TargetNet-evaluation/
+02-07 15:08:05	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 15:08:05	start loading datasets
+02-07 15:08:07	loaded 11333 test0 samples
+02-07 15:08:07	loaded 2442 test1 samples
+02-07 15:08:07	elapsed time: 0:00:02.376252
+
+02-07 15:08:07	start initializing a model
+02-07 15:08:07	end initializing a model
+02-07 15:08:07	elapsed time: 0:00:00.003011
+
+02-07 15:08:07	start setting trainer configurations
+02-07 15:08:07	loading a model state_dict from the checkpoint
+02-07 15:08:07	end setting trainer configurations
+02-07 15:08:07	elapsed time: 0:00:00.003030
+
+02-07 15:08:07	start evaluating a model
+02-07 15:08:07	processing test0
+02-07 15:08:33	processing test1
+02-07 15:08:42	end evaluating a model
+02-07 15:08:42	elapsed time: 0:00:34.165106
+
+02-07 15:13:56	##### arguments #####
+02-07 15:13:56	data_config: config/data/miRAW_eval.json
+02-07 15:13:56	-- with_esa: True
+02-07 15:13:56	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 15:13:56	model_config: config/model/TargetNet.json
+02-07 15:13:56	-- skip_connection: True
+02-07 15:13:56	-- num_channels: [16, 16, 32]
+02-07 15:13:56	-- num_blocks: [2, 1, 1]
+02-07 15:13:56	-- stem_kernel_size: 5
+02-07 15:13:56	-- block_kernel_size: 3
+02-07 15:13:56	-- pool_size: 3
+02-07 15:13:56	run_config: config/run/run.json
+02-07 15:13:56	-- batch_size_eval: 256
+02-07 15:13:56	checkpoint: pretrained_models/TargetNet.pt
+02-07 15:13:56	device: cuda (1 GPUs)
+02-07 15:13:56	output_path: results/TargetNet-evaluation/
+02-07 15:13:56	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 15:13:56	start loading datasets
+02-07 15:13:58	loaded 11333 test0 samples
+02-07 15:13:58	loaded 2442 test1 samples
+02-07 15:13:58	elapsed time: 0:00:02.420581
+
+02-07 15:13:58	start initializing a model
+02-07 15:13:58	end initializing a model
+02-07 15:13:58	elapsed time: 0:00:00.002002
+
+02-07 15:13:58	start setting trainer configurations
+02-07 15:13:58	loading a model state_dict from the checkpoint
+02-07 15:13:58	end setting trainer configurations
+02-07 15:13:58	elapsed time: 0:00:00.002000
+
+02-07 15:13:58	start evaluating a model
+02-07 15:13:58	processing test0
+02-07 15:14:24	processing test1
+02-07 15:14:33	end evaluating a model
+02-07 15:14:33	elapsed time: 0:00:34.322173
+
+02-07 18:31:05	##### arguments #####
+02-07 18:31:05	data_config: config/data/miRAW_eval.json
+02-07 18:31:05	-- with_esa: True
+02-07 18:31:05	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 18:31:05	model_config: config/model/TargetNet.json
+02-07 18:31:05	-- skip_connection: True
+02-07 18:31:05	-- num_channels: [16, 16, 32]
+02-07 18:31:05	-- num_blocks: [2, 1, 1]
+02-07 18:31:05	-- stem_kernel_size: 5
+02-07 18:31:05	-- block_kernel_size: 3
+02-07 18:31:05	-- pool_size: 3
+02-07 18:31:05	run_config: config/run/run.json
+02-07 18:31:05	-- batch_size_eval: 256
+02-07 18:31:05	checkpoint: pretrained_models/TargetNet.pt
+02-07 18:31:05	device: cuda (1 GPUs)
+02-07 18:31:05	output_path: results/TargetNet-evaluation/
+02-07 18:31:05	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 18:31:05	start loading datasets
+02-07 18:31:07	loaded 11333 test0 samples
+02-07 18:31:08	loaded 2443 test1 samples
+02-07 18:31:08	elapsed time: 0:00:02.331271
+
+02-07 18:31:08	start initializing a model
+02-07 18:31:08	end initializing a model
+02-07 18:31:08	elapsed time: 0:00:00.002546
+
+02-07 18:31:08	start setting trainer configurations
+02-07 18:31:08	loading a model state_dict from the checkpoint
+02-07 18:31:08	end setting trainer configurations
+02-07 18:31:08	elapsed time: 0:00:00.003142
+
+02-07 18:31:08	start evaluating a model
+02-07 18:31:08	processing test0
+02-07 18:31:30	processing test1
+02-07 18:31:37	end evaluating a model
+02-07 18:31:37	elapsed time: 0:00:29.780998
+
+02-07 18:34:17	##### arguments #####
+02-07 18:34:17	data_config: config/data/miRAW_eval.json
+02-07 18:34:17	-- with_esa: True
+02-07 18:34:17	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 18:34:17	model_config: config/model/TargetNet.json
+02-07 18:34:17	-- skip_connection: True
+02-07 18:34:17	-- num_channels: [16, 16, 32]
+02-07 18:34:17	-- num_blocks: [2, 1, 1]
+02-07 18:34:17	-- stem_kernel_size: 5
+02-07 18:34:17	-- block_kernel_size: 3
+02-07 18:34:17	-- pool_size: 3
+02-07 18:34:17	run_config: config/run/run.json
+02-07 18:34:17	-- batch_size_eval: 256
+02-07 18:34:17	checkpoint: pretrained_models/TargetNet.pt
+02-07 18:34:17	device: cuda (1 GPUs)
+02-07 18:34:17	output_path: results/TargetNet-evaluation/
+02-07 18:34:17	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 18:34:17	start loading datasets
+02-07 18:34:19	loaded 11333 test0 samples
+02-07 18:34:19	loaded 2443 test1 samples
+02-07 18:34:19	elapsed time: 0:00:02.330014
+
+02-07 18:34:19	start initializing a model
+02-07 18:34:19	end initializing a model
+02-07 18:34:19	elapsed time: 0:00:00.003034
+
+02-07 18:34:19	start setting trainer configurations
+02-07 18:34:19	loading a model state_dict from the checkpoint
+02-07 18:34:19	end setting trainer configurations
+02-07 18:34:19	elapsed time: 0:00:00.002019
+
+02-07 18:34:19	start evaluating a model
+02-07 18:34:19	processing test0
+02-07 18:34:41	processing test1
+02-07 18:34:49	end evaluating a model
+02-07 18:34:49	elapsed time: 0:00:29.809565
+
+02-07 18:37:08	##### arguments #####
+02-07 18:37:08	data_config: config/data/miRAW_eval.json
+02-07 18:37:08	-- with_esa: True
+02-07 18:37:08	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 18:37:08	model_config: config/model/TargetNet.json
+02-07 18:37:08	-- skip_connection: True
+02-07 18:37:08	-- num_channels: [16, 16, 32]
+02-07 18:37:08	-- num_blocks: [2, 1, 1]
+02-07 18:37:08	-- stem_kernel_size: 5
+02-07 18:37:08	-- block_kernel_size: 3
+02-07 18:37:08	-- pool_size: 3
+02-07 18:37:08	run_config: config/run/run.json
+02-07 18:37:08	-- batch_size_eval: 256
+02-07 18:37:08	checkpoint: pretrained_models/TargetNet.pt
+02-07 18:37:08	device: cuda (1 GPUs)
+02-07 18:37:08	output_path: results/TargetNet-evaluation/
+02-07 18:37:08	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 18:37:08	start loading datasets
+02-07 18:37:10	loaded 11528 test0 samples
+02-07 18:37:11	loaded 2443 test1 samples
+02-07 18:37:11	elapsed time: 0:00:02.434062
+
+02-07 18:37:11	start initializing a model
+02-07 18:37:11	end initializing a model
+02-07 18:37:11	elapsed time: 0:00:00.003032
+
+02-07 18:37:11	start setting trainer configurations
+02-07 18:37:11	loading a model state_dict from the checkpoint
+02-07 18:37:11	end setting trainer configurations
+02-07 18:37:11	elapsed time: 0:00:00.002998
+
+02-07 18:37:11	start evaluating a model
+02-07 18:37:11	processing test0
+02-07 18:37:33	processing test1
+02-07 18:37:41	end evaluating a model
+02-07 18:37:41	elapsed time: 0:00:30.251889
+
+02-07 18:41:10	##### arguments #####
+02-07 18:41:10	data_config: config/data/miRAW_eval.json
+02-07 18:41:10	-- with_esa: True
+02-07 18:41:10	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 18:41:10	model_config: config/model/TargetNet.json
+02-07 18:41:10	-- skip_connection: True
+02-07 18:41:10	-- num_channels: [16, 16, 32]
+02-07 18:41:10	-- num_blocks: [2, 1, 1]
+02-07 18:41:10	-- stem_kernel_size: 5
+02-07 18:41:10	-- block_kernel_size: 3
+02-07 18:41:10	-- pool_size: 3
+02-07 18:41:10	run_config: config/run/run.json
+02-07 18:41:10	-- batch_size_eval: 256
+02-07 18:41:10	checkpoint: pretrained_models/TargetNet.pt
+02-07 18:41:10	device: cuda (1 GPUs)
+02-07 18:41:10	output_path: results/TargetNet-evaluation/
+02-07 18:41:10	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 18:41:10	start loading datasets
+02-07 18:41:12	loaded 11529 test0 samples
+02-07 18:41:12	loaded 2443 test1 samples
+02-07 18:41:12	elapsed time: 0:00:02.517724
+
+02-07 18:41:12	start initializing a model
+02-07 18:41:12	end initializing a model
+02-07 18:41:12	elapsed time: 0:00:00.002999
+
+02-07 18:41:12	start setting trainer configurations
+02-07 18:41:12	loading a model state_dict from the checkpoint
+02-07 18:41:12	end setting trainer configurations
+02-07 18:41:12	elapsed time: 0:00:00.001999
+
+02-07 18:41:12	start evaluating a model
+02-07 18:41:12	processing test0
+02-07 18:41:36	processing test1
+02-07 18:41:45	end evaluating a model
+02-07 18:41:45	elapsed time: 0:00:32.170771
+
+02-07 18:43:47	##### arguments #####
+02-07 18:43:47	data_config: config/data/miRAW_eval.json
+02-07 18:43:47	-- with_esa: True
+02-07 18:43:47	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 18:43:47	model_config: config/model/TargetNet.json
+02-07 18:43:47	-- skip_connection: True
+02-07 18:43:47	-- num_channels: [16, 16, 32]
+02-07 18:43:47	-- num_blocks: [2, 1, 1]
+02-07 18:43:47	-- stem_kernel_size: 5
+02-07 18:43:47	-- block_kernel_size: 3
+02-07 18:43:47	-- pool_size: 3
+02-07 18:43:47	run_config: config/run/run.json
+02-07 18:43:47	-- batch_size_eval: 256
+02-07 18:43:47	checkpoint: pretrained_models/TargetNet.pt
+02-07 18:43:47	device: cuda (1 GPUs)
+02-07 18:43:47	output_path: results/TargetNet-evaluation/
+02-07 18:43:47	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 18:43:48	start loading datasets
+02-07 18:43:50	loaded 11529 test0 samples
+02-07 18:43:50	loaded 2444 test1 samples
+02-07 18:43:50	elapsed time: 0:00:02.503112
+
+02-07 18:43:50	start initializing a model
+02-07 18:43:50	end initializing a model
+02-07 18:43:50	elapsed time: 0:00:00.003966
+
+02-07 18:43:50	start setting trainer configurations
+02-07 18:43:50	loading a model state_dict from the checkpoint
+02-07 18:43:50	end setting trainer configurations
+02-07 18:43:50	elapsed time: 0:00:00.002007
+
+02-07 18:43:50	start evaluating a model
+02-07 18:43:50	processing test0
+02-07 18:44:13	processing test1
+02-07 18:44:21	end evaluating a model
+02-07 18:44:21	elapsed time: 0:00:31.015560
+
+02-07 18:45:33	##### arguments #####
+02-07 18:45:33	data_config: config/data/miRAW_eval.json
+02-07 18:45:33	-- with_esa: True
+02-07 18:45:33	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 18:45:33	model_config: config/model/TargetNet.json
+02-07 18:45:33	-- skip_connection: True
+02-07 18:45:33	-- num_channels: [16, 16, 32]
+02-07 18:45:33	-- num_blocks: [2, 1, 1]
+02-07 18:45:33	-- stem_kernel_size: 5
+02-07 18:45:33	-- block_kernel_size: 3
+02-07 18:45:33	-- pool_size: 3
+02-07 18:45:33	run_config: config/run/run.json
+02-07 18:45:33	-- batch_size_eval: 256
+02-07 18:45:33	checkpoint: pretrained_models/TargetNet.pt
+02-07 18:45:33	device: cuda (1 GPUs)
+02-07 18:45:33	output_path: results/TargetNet-evaluation/
+02-07 18:45:33	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 18:45:33	start loading datasets
+02-07 18:45:35	loaded 11529 test0 samples
+02-07 18:45:36	loaded 3530 test1 samples
+02-07 18:45:36	elapsed time: 0:00:03.442531
+
+02-07 18:45:36	start initializing a model
+02-07 18:45:36	end initializing a model
+02-07 18:45:36	elapsed time: 0:00:00.004030
+
+02-07 18:45:36	start setting trainer configurations
+02-07 18:45:36	loading a model state_dict from the checkpoint
+02-07 18:45:36	end setting trainer configurations
+02-07 18:45:36	elapsed time: 0:00:00.002003
+
+02-07 18:45:36	start evaluating a model
+02-07 18:45:36	processing test0
+02-07 18:46:04	processing test1
+02-07 18:46:14	end evaluating a model
+02-07 18:46:14	elapsed time: 0:00:37.330622
+
+02-07 20:21:50	##### arguments #####
+02-07 20:21:50	data_config: config/data/miRAW_eval.json
+02-07 20:21:50	-- with_esa: True
+02-07 20:21:50	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 20:21:50	model_config: config/model/TargetNet.json
+02-07 20:21:50	-- skip_connection: True
+02-07 20:21:50	-- num_channels: [16, 16, 32]
+02-07 20:21:50	-- num_blocks: [2, 1, 1]
+02-07 20:21:50	-- stem_kernel_size: 5
+02-07 20:21:50	-- block_kernel_size: 3
+02-07 20:21:50	-- pool_size: 3
+02-07 20:21:50	run_config: config/run/run.json
+02-07 20:21:50	-- batch_size_eval: 256
+02-07 20:21:50	checkpoint: pretrained_models/TargetNet.pt
+02-07 20:21:50	device: cuda (1 GPUs)
+02-07 20:21:50	output_path: results/TargetNet-evaluation/
+02-07 20:21:50	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 20:21:50	start loading datasets
+02-07 20:21:52	loaded 11529 test0 samples
+02-07 20:21:53	loaded 3530 test1 samples
+02-07 20:21:53	elapsed time: 0:00:02.713629
+
+02-07 20:21:53	start initializing a model
+02-07 20:21:53	end initializing a model
+02-07 20:21:53	elapsed time: 0:00:00.002032
+
+02-07 20:21:53	start setting trainer configurations
+02-07 20:21:53	loading a model state_dict from the checkpoint
+02-07 20:21:53	end setting trainer configurations
+02-07 20:21:53	elapsed time: 0:00:00.003182
+
+02-07 20:21:53	start evaluating a model
+02-07 20:21:53	processing test0
+02-07 20:22:18	processing test1
+02-07 20:22:28	end evaluating a model
+02-07 20:22:28	elapsed time: 0:00:34.615490
+
+02-07 20:23:04	##### arguments #####
+02-07 20:23:04	data_config: config/data/miRAW_eval.json
+02-07 20:23:04	-- with_esa: True
+02-07 20:23:04	-- path: {'test0': 'data/test_test.txt', 'test1': 'data/test_test1.txt'}
+02-07 20:23:04	model_config: config/model/TargetNet.json
+02-07 20:23:04	-- skip_connection: True
+02-07 20:23:04	-- num_channels: [16, 16, 32]
+02-07 20:23:04	-- num_blocks: [2, 1, 1]
+02-07 20:23:04	-- stem_kernel_size: 5
+02-07 20:23:04	-- block_kernel_size: 3
+02-07 20:23:04	-- pool_size: 3
+02-07 20:23:04	run_config: config/run/run.json
+02-07 20:23:04	-- batch_size_eval: 256
+02-07 20:23:04	checkpoint: pretrained_models/TargetNet.pt
+02-07 20:23:04	device: cuda (1 GPUs)
+02-07 20:23:04	output_path: results/TargetNet-evaluation/
+02-07 20:23:04	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 20:23:04	start loading datasets
+02-07 20:23:06	loaded 11529 test0 samples
+02-07 20:23:07	loaded 3530 test1 samples
+02-07 20:23:07	elapsed time: 0:00:02.685774
+
+02-07 20:23:07	start initializing a model
+02-07 20:23:07	end initializing a model
+02-07 20:23:07	elapsed time: 0:00:00.002111
+
+02-07 20:23:07	start setting trainer configurations
+02-07 20:23:07	loading a model state_dict from the checkpoint
+02-07 20:23:07	end setting trainer configurations
+02-07 20:23:07	elapsed time: 0:00:00.003131
+
+02-07 20:23:07	start evaluating a model
+02-07 20:23:07	processing test0
+02-07 20:23:30	processing test1
+02-07 20:23:40	end evaluating a model
+02-07 20:23:40	elapsed time: 0:00:33.084052
+
+02-07 23:45:25	##### arguments #####
+02-07 23:45:25	data_config: config/data/miRAW_eval.json
+02-07 23:45:25	-- with_esa: True
+02-07 23:45:25	-- path: {'test0': 'data/test_test.txt'}
+02-07 23:45:25	model_config: config/model/TargetNet.json
+02-07 23:45:25	-- skip_connection: True
+02-07 23:45:25	-- num_channels: [16, 16, 32]
+02-07 23:45:25	-- num_blocks: [2, 1, 1]
+02-07 23:45:25	-- stem_kernel_size: 5
+02-07 23:45:25	-- block_kernel_size: 3
+02-07 23:45:25	-- pool_size: 3
+02-07 23:45:25	run_config: config/run/run.json
+02-07 23:45:25	-- batch_size_eval: 256
+02-07 23:45:25	checkpoint: pretrained_models/TargetNet.pt
+02-07 23:45:25	device: cuda (1 GPUs)
+02-07 23:45:25	output_path: results/TargetNet-evaluation/
+02-07 23:45:25	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-07 23:45:25	start loading datasets
+02-07 23:45:50	loaded 112762 test0 samples
+02-07 23:45:50	elapsed time: 0:00:25.202335
+
+02-07 23:45:50	start initializing a model
+02-07 23:45:50	end initializing a model
+02-07 23:45:50	elapsed time: 0:00:00.003033
+
+02-07 23:45:50	start setting trainer configurations
+02-07 23:45:50	loading a model state_dict from the checkpoint
+02-07 23:45:51	end setting trainer configurations
+02-07 23:45:51	elapsed time: 0:00:00.109700
+
+02-07 23:45:51	start evaluating a model
+02-07 23:45:51	processing test0
+02-08 00:11:27	end evaluating a model
+02-08 00:11:27	elapsed time: 0:25:36.310206
+
+02-08 00:22:33	##### arguments #####
+02-08 00:22:33	data_config: config/data/miRAW_eval.json
+02-08 00:22:33	-- with_esa: True
+02-08 00:22:33	-- path: {'test0': 'data/test_test.txt'}
+02-08 00:22:33	model_config: config/model/TargetNet.json
+02-08 00:22:33	-- skip_connection: True
+02-08 00:22:33	-- num_channels: [16, 16, 32]
+02-08 00:22:33	-- num_blocks: [2, 1, 1]
+02-08 00:22:33	-- stem_kernel_size: 5
+02-08 00:22:33	-- block_kernel_size: 3
+02-08 00:22:33	-- pool_size: 3
+02-08 00:22:33	run_config: config/run/run.json
+02-08 00:22:33	-- batch_size_eval: 256
+02-08 00:22:33	checkpoint: pretrained_models/TargetNet.pt
+02-08 00:22:33	device: cuda (1 GPUs)
+02-08 00:22:33	output_path: results/TargetNet-evaluation/
+02-08 00:22:33	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-08 00:22:33	start loading datasets
+02-08 00:22:59	loaded 134319 test0 samples
+02-08 00:22:59	elapsed time: 0:00:26.034000
+
+02-08 00:22:59	start initializing a model
+02-08 00:22:59	end initializing a model
+02-08 00:22:59	elapsed time: 0:00:00.006998
+
+02-08 00:22:59	start setting trainer configurations
+02-08 00:22:59	loading a model state_dict from the checkpoint
+02-08 00:22:59	end setting trainer configurations
+02-08 00:22:59	elapsed time: 0:00:00.112113
+
+02-08 00:22:59	start evaluating a model
+02-08 00:22:59	processing test0
+02-08 01:01:19	end evaluating a model
+02-08 01:01:20	elapsed time: 0:38:20.394710
+
+02-08 16:56:00	##### arguments #####
+02-08 16:56:00	data_config: config/data/miRAW_eval.json
+02-08 16:56:00	-- with_esa: True
+02-08 16:56:00	-- path: {'test0': 'data/targetnet_val.txt'}
+02-08 16:56:00	model_config: config/model/TargetNet.json
+02-08 16:56:00	-- skip_connection: True
+02-08 16:56:00	-- num_channels: [16, 16, 32]
+02-08 16:56:00	-- num_blocks: [2, 1, 1]
+02-08 16:56:00	-- stem_kernel_size: 5
+02-08 16:56:00	-- block_kernel_size: 3
+02-08 16:56:00	-- pool_size: 3
+02-08 16:56:00	run_config: config/run/run.json
+02-08 16:56:00	-- batch_size_eval: 256
+02-08 16:56:00	checkpoint: pretrained_models/TargetNet.pt
+02-08 16:56:00	device: cuda (1 GPUs)
+02-08 16:56:00	output_path: results/TargetNet-evaluation/
+02-08 16:56:00	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-08 16:56:00	start loading datasets
+02-08 16:56:01	loaded 3979 test0 samples
+02-08 16:56:01	elapsed time: 0:00:00.900808
+
+02-08 16:56:01	start initializing a model
+02-08 16:56:01	end initializing a model
+02-08 16:56:01	elapsed time: 0:00:00.052206
+
+02-08 16:56:01	start setting trainer configurations
+02-08 16:56:01	loading a model state_dict from the checkpoint
+02-08 16:56:02	end setting trainer configurations
+02-08 16:56:02	elapsed time: 0:00:00.224927
+
+02-08 16:56:02	start evaluating a model
+02-08 16:56:02	processing test0
+02-08 16:56:19	end evaluating a model
+02-08 16:56:19	elapsed time: 0:00:17.190948
+
+02-18 12:18:14	##### arguments #####
+02-18 12:18:14	data_config: config/data/miRAW_eval.json
+02-18 12:18:14	-- with_esa: True
+02-18 12:18:14	-- path: {'test0': 'data/miRAW_Test0.txt'}
+02-18 12:18:14	model_config: config/model/TargetNet.json
+02-18 12:18:14	-- skip_connection: True
+02-18 12:18:14	-- num_channels: [16, 16, 32]
+02-18 12:18:14	-- num_blocks: [2, 1, 1]
+02-18 12:18:14	-- stem_kernel_size: 5
+02-18 12:18:14	-- block_kernel_size: 3
+02-18 12:18:14	-- pool_size: 3
+02-18 12:18:14	run_config: config/run/run.json
+02-18 12:18:14	-- batch_size_eval: 256
+02-18 12:18:14	checkpoint: pretrained_models/TargetNet.pt
+02-18 12:18:14	device: cuda (1 GPUs)
+02-18 12:18:14	output_path: results/TargetNet-evaluation/
+02-18 12:18:14	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-18 12:18:15	start loading datasets
+02-18 12:18:15	loaded 1441 test0 samples
+02-18 12:18:15	elapsed time: 0:00:00.250002
+
+02-18 12:18:15	start initializing a model
+02-18 12:18:15	end initializing a model
+02-18 12:18:15	elapsed time: 0:00:00.003998
+
+02-18 12:18:15	start setting trainer configurations
+02-18 12:18:15	loading a model state_dict from the checkpoint
+02-18 12:19:44	##### arguments #####
+02-18 12:19:44	data_config: config/data/miRAW_eval.json
+02-18 12:19:44	-- with_esa: True
+02-18 12:19:44	-- path: {'test0': 'data/miRAW_Test0.txt'}
+02-18 12:19:44	model_config: config/model/TargetNet.json
+02-18 12:19:44	-- skip_connection: True
+02-18 12:19:44	-- num_channels: [16, 16, 32]
+02-18 12:19:44	-- num_blocks: [2, 1, 1]
+02-18 12:19:44	-- stem_kernel_size: 5
+02-18 12:19:44	-- block_kernel_size: 3
+02-18 12:19:44	-- pool_size: 3
+02-18 12:19:44	run_config: config/run/run.json
+02-18 12:19:44	-- batch_size_eval: 256
+02-18 12:19:44	checkpoint: results/TargetNet_training/TargetNet.pt
+02-18 12:19:44	device: cuda (1 GPUs)
+02-18 12:19:44	output_path: results/TargetNet-evaluation/
+02-18 12:19:44	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-18 12:19:44	start loading datasets
+02-18 12:19:44	loaded 1441 test0 samples
+02-18 12:19:44	elapsed time: 0:00:00.237236
+
+02-18 12:19:44	start initializing a model
+02-18 12:19:44	end initializing a model
+02-18 12:19:44	elapsed time: 0:00:00.004036
+
+02-18 12:19:44	start setting trainer configurations
+02-18 12:19:44	loading a model state_dict from the checkpoint
+02-18 12:19:44	end setting trainer configurations
+02-18 12:19:44	elapsed time: 0:00:00.010010
+
+02-18 12:19:44	start evaluating a model
+02-18 12:19:44	processing test0
+02-18 12:20:05	end evaluating a model
+02-18 12:20:05	elapsed time: 0:00:21.123358
+
+02-18 12:21:25	##### arguments #####
+02-18 12:21:25	data_config: config/data/miRAW_eval.json
+02-18 12:21:25	-- with_esa: True
+02-18 12:21:25	-- path: {'test0': 'data/miRAW_Test0.txt'}
+02-18 12:21:25	model_config: config/model/TargetNet.json
+02-18 12:21:25	-- skip_connection: True
+02-18 12:21:25	-- num_channels: [16, 16, 32]
+02-18 12:21:25	-- num_blocks: [2, 1, 1]
+02-18 12:21:25	-- stem_kernel_size: 5
+02-18 12:21:25	-- block_kernel_size: 3
+02-18 12:21:25	-- pool_size: 3
+02-18 12:21:25	run_config: config/run/run.json
+02-18 12:21:25	-- batch_size_eval: 256
+02-18 12:21:25	checkpoint: results/TargetNet_training/TargetNet.pt
+02-18 12:21:25	device: cuda (1 GPUs)
+02-18 12:21:25	output_path: results/TargetNet-evaluation/
+02-18 12:21:25	log_file: results/TargetNet-evaluation//evaluate_model_log.txt
+
+02-18 12:21:25	start loading datasets
+02-18 12:21:26	loaded 1448 test0 samples
+02-18 12:21:26	elapsed time: 0:00:00.251176
+
+02-18 12:21:26	start initializing a model
+02-18 12:21:26	end initializing a model
+02-18 12:21:26	elapsed time: 0:00:00.004041
+
+02-18 12:21:26	start setting trainer configurations
+02-18 12:21:26	loading a model state_dict from the checkpoint
+02-18 12:21:26	end setting trainer configurations
+02-18 12:21:26	elapsed time: 0:00:00.006964
+
+02-18 12:21:26	start evaluating a model
+02-18 12:21:26	processing test0
+02-18 12:21:47	end evaluating a model
+02-18 12:21:47	elapsed time: 0:00:20.794192
+

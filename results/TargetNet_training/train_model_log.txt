@@ -1,0 +1,838 @@
+01-21 12:05:47	##### arguments #####
+01-21 12:05:47	data_config: config/data/miRAW_train.json
+01-21 12:05:47	-- with_esa: True
+01-21 12:05:47	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-21 12:05:47	model_config: config/model/TargetNet.json
+01-21 12:05:47	-- skip_connection: True
+01-21 12:05:47	-- num_channels: [16, 16, 32]
+01-21 12:05:47	-- num_blocks: [2, 1, 1]
+01-21 12:05:47	-- stem_kernel_size: 5
+01-21 12:05:47	-- block_kernel_size: 3
+01-21 12:05:47	-- pool_size: 3
+01-21 12:05:47	run_config: config/run/run.json
+01-21 12:05:47	-- batch_size_eval: 256
+01-21 12:05:47	-- num_epochs: 50
+01-21 12:05:47	-- learning_rate: 0.001
+01-21 12:05:47	-- weight_decay: 0
+01-21 12:05:47	-- dropout_rate: 0.5
+01-21 12:05:47	device: cuda (1 GPUs)
+01-21 12:05:47	output_path: results/TargetNet_training/
+01-21 12:05:47	log_file: results/TargetNet_training//train_model_log.txt
+
+01-21 12:05:47	start loading datasets
+01-21 12:06:19	loaded 54464 dataset_train samples
+01-21 12:06:19	loaded 4329 dataset_val samples
+01-21 12:06:19	elapsed time: 0:00:32.178223
+
+01-21 12:06:19	start initializing a model
+01-21 12:06:19	end initializing a model
+01-21 12:06:19	elapsed time: 0:00:00.015009
+
+01-21 12:06:19	start setting trainer configurations
+01-21 12:06:19	end setting trainer configurations
+01-21 12:06:19	elapsed time: 0:00:00.005002
+
+01-21 12:06:19	start training a model
+01-21 12:06:19	ep	split	loss	|	loss
+01-22 00:51:23	##### arguments #####
+01-22 00:51:23	data_config: config/data/miRAW_train.json
+01-22 00:51:23	-- with_esa: True
+01-22 00:51:23	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 00:51:23	model_config: config/model/TargetNet.json
+01-22 00:51:23	-- skip_connection: True
+01-22 00:51:23	-- num_channels: [16, 16, 32]
+01-22 00:51:23	-- num_blocks: [2, 1, 1]
+01-22 00:51:23	-- stem_kernel_size: 5
+01-22 00:51:23	-- block_kernel_size: 3
+01-22 00:51:23	-- pool_size: 3
+01-22 00:51:23	run_config: config/run/run.json
+01-22 00:51:23	-- batch_size_eval: 256
+01-22 00:51:23	-- num_epochs: 50
+01-22 00:51:23	-- learning_rate: 0.001
+01-22 00:51:23	-- weight_decay: 0
+01-22 00:51:23	-- dropout_rate: 0.5
+01-22 00:51:23	device: cuda (1 GPUs)
+01-22 00:51:23	output_path: results/TargetNet_training/
+01-22 00:51:23	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 00:51:23	start loading datasets
+01-22 00:53:31	##### arguments #####
+01-22 00:53:31	data_config: config/data/miRAW_train.json
+01-22 00:53:31	-- with_esa: True
+01-22 00:53:31	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 00:53:31	model_config: config/model/TargetNet.json
+01-22 00:53:31	-- skip_connection: True
+01-22 00:53:31	-- num_channels: [16, 16, 32]
+01-22 00:53:31	-- num_blocks: [2, 1, 1]
+01-22 00:53:31	-- stem_kernel_size: 5
+01-22 00:53:31	-- block_kernel_size: 3
+01-22 00:53:31	-- pool_size: 3
+01-22 00:53:31	run_config: config/run/run.json
+01-22 00:53:31	-- batch_size_eval: 256
+01-22 00:53:31	-- num_epochs: 50
+01-22 00:53:31	-- learning_rate: 0.001
+01-22 00:53:31	-- weight_decay: 0
+01-22 00:53:31	-- dropout_rate: 0.5
+01-22 00:53:31	device: cuda (1 GPUs)
+01-22 00:53:31	output_path: results/TargetNet_training/
+01-22 00:53:31	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 00:53:32	start loading datasets
+01-22 00:54:00	loaded 54464 dataset_train samples
+01-22 00:54:00	loaded 4329 dataset_val samples
+01-22 00:54:00	elapsed time: 0:00:28.299009
+
+01-22 00:54:00	start initializing a model
+01-22 00:54:00	end initializing a model
+01-22 00:54:00	elapsed time: 0:00:00.053412
+
+01-22 00:54:00	start setting trainer configurations
+01-22 00:54:00	end setting trainer configurations
+01-22 00:54:00	elapsed time: 0:00:00.005002
+
+01-22 00:54:00	start training a model
+01-22 00:54:00	ep	split	loss	|	loss
+01-22 00:59:17	##### arguments #####
+01-22 00:59:17	data_config: config/data/miRAW_train.json
+01-22 00:59:17	-- with_esa: True
+01-22 00:59:17	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 00:59:17	model_config: config/model/TargetNet.json
+01-22 00:59:17	-- skip_connection: True
+01-22 00:59:17	-- num_channels: [16, 16, 32]
+01-22 00:59:17	-- num_blocks: [2, 1, 1]
+01-22 00:59:17	-- stem_kernel_size: 5
+01-22 00:59:17	-- block_kernel_size: 3
+01-22 00:59:17	-- pool_size: 3
+01-22 00:59:17	run_config: config/run/run.json
+01-22 00:59:17	-- batch_size_eval: 256
+01-22 00:59:17	-- num_epochs: 50
+01-22 00:59:17	-- learning_rate: 0.001
+01-22 00:59:17	-- weight_decay: 0
+01-22 00:59:17	-- dropout_rate: 0.5
+01-22 00:59:17	device: cuda (1 GPUs)
+01-22 00:59:17	output_path: results/TargetNet_training/
+01-22 00:59:17	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 00:59:17	start loading datasets
+01-22 00:59:47	loaded 54464 dataset_train samples
+01-22 00:59:47	loaded 4329 dataset_val samples
+01-22 00:59:47	elapsed time: 0:00:30.027640
+
+01-22 00:59:47	start initializing a model
+01-22 00:59:47	end initializing a model
+01-22 00:59:47	elapsed time: 0:00:00.002034
+
+01-22 00:59:47	start setting trainer configurations
+01-22 00:59:47	end setting trainer configurations
+01-22 00:59:47	elapsed time: 0:00:00.003002
+
+01-22 00:59:47	start training a model
+01-22 00:59:47	ep	split	loss	|	loss
+01-22 01:02:24	##### arguments #####
+01-22 01:02:24	data_config: config/data/miRAW_train.json
+01-22 01:02:24	-- with_esa: True
+01-22 01:02:24	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 01:02:24	model_config: config/model/TargetNet.json
+01-22 01:02:24	-- skip_connection: True
+01-22 01:02:24	-- num_channels: [16, 16, 32]
+01-22 01:02:24	-- num_blocks: [2, 1, 1]
+01-22 01:02:24	-- stem_kernel_size: 5
+01-22 01:02:24	-- block_kernel_size: 3
+01-22 01:02:24	-- pool_size: 3
+01-22 01:02:24	run_config: config/run/run.json
+01-22 01:02:24	-- batch_size_eval: 256
+01-22 01:02:24	-- num_epochs: 50
+01-22 01:02:24	-- learning_rate: 0.001
+01-22 01:02:24	-- weight_decay: 0
+01-22 01:02:24	-- dropout_rate: 0.5
+01-22 01:02:24	device: cuda (1 GPUs)
+01-22 01:02:24	output_path: results/TargetNet_training/
+01-22 01:02:24	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 01:02:24	start loading datasets
+01-22 01:02:54	loaded 54464 dataset_train samples
+01-22 01:02:54	loaded 4329 dataset_val samples
+01-22 01:02:54	elapsed time: 0:00:29.233360
+
+01-22 01:02:54	start initializing a model
+01-22 01:02:54	end initializing a model
+01-22 01:02:54	elapsed time: 0:00:00.003000
+
+01-22 01:02:54	start setting trainer configurations
+01-22 01:02:54	end setting trainer configurations
+01-22 01:02:54	elapsed time: 0:00:00.004025
+
+01-22 01:02:54	start training a model
+01-22 01:02:54	ep	split	loss	|	loss
+01-22 01:09:46	001	train	0.8013	|	val	0.6741
+01-22 01:16:50	002	train	0.4681	|	val	0.6500
+01-22 01:24:06	003	train	0.3965	|	val	0.6121
+01-22 01:55:59	##### arguments #####
+01-22 01:55:59	data_config: config/data/miRAW_train.json
+01-22 01:55:59	-- with_esa: True
+01-22 01:55:59	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 01:55:59	model_config: config/model/TargetNet.json
+01-22 01:55:59	-- skip_connection: True
+01-22 01:55:59	-- num_channels: [16, 16, 32]
+01-22 01:55:59	-- num_blocks: [2, 1, 1]
+01-22 01:55:59	-- stem_kernel_size: 5
+01-22 01:55:59	-- block_kernel_size: 3
+01-22 01:55:59	-- pool_size: 3
+01-22 01:55:59	run_config: config/run/run.json
+01-22 01:55:59	-- batch_size_eval: 256
+01-22 01:55:59	-- num_epochs: 50
+01-22 01:55:59	-- learning_rate: 0.001
+01-22 01:55:59	-- weight_decay: 0
+01-22 01:55:59	-- dropout_rate: 0.5
+01-22 01:55:59	device: cuda (1 GPUs)
+01-22 01:55:59	output_path: results/TargetNet_training/
+01-22 01:55:59	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 01:56:00	start loading datasets
+01-22 01:56:22	loaded 54464 dataset_train samples
+01-22 01:56:22	loaded 4329 dataset_val samples
+01-22 01:56:22	elapsed time: 0:00:22.437754
+
+01-22 01:56:22	start initializing a model
+01-22 01:56:22	end initializing a model
+01-22 01:56:22	elapsed time: 0:00:00.060129
+
+01-22 01:56:22	start setting trainer configurations
+01-22 01:56:22	end setting trainer configurations
+01-22 01:56:22	elapsed time: 0:00:00.012980
+
+01-22 01:56:22	start training a model
+01-22 01:56:22	ep	split	loss	|	loss
+01-22 02:02:30	001	train	0.8013	|	val	0.6741
+01-22 02:09:18	002	train	0.4681	|	val	0.6500
+01-22 02:16:43	##### arguments #####
+01-22 02:16:43	data_config: config/data/miRAW_train.json
+01-22 02:16:43	-- with_esa: True
+01-22 02:16:43	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 02:16:43	model_config: config/model/TargetNet.json
+01-22 02:16:43	-- skip_connection: True
+01-22 02:16:43	-- num_channels: [16, 16, 32]
+01-22 02:16:43	-- num_blocks: [2, 1, 1]
+01-22 02:16:43	-- stem_kernel_size: 5
+01-22 02:16:43	-- block_kernel_size: 3
+01-22 02:16:43	-- pool_size: 3
+01-22 02:16:43	run_config: config/run/run.json
+01-22 02:16:43	-- batch_size_eval: 256
+01-22 02:16:43	-- num_epochs: 50
+01-22 02:16:43	-- learning_rate: 0.001
+01-22 02:16:43	-- weight_decay: 0
+01-22 02:16:43	-- dropout_rate: 0.5
+01-22 02:16:43	device: cuda (1 GPUs)
+01-22 02:16:43	output_path: results/TargetNet_training/
+01-22 02:16:43	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 02:16:43	start loading datasets
+01-22 02:26:26	##### arguments #####
+01-22 02:26:26	data_config: config/data/miRAW_train.json
+01-22 02:26:26	-- with_esa: True
+01-22 02:26:26	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 02:26:26	model_config: config/model/TargetNet.json
+01-22 02:26:26	-- skip_connection: True
+01-22 02:26:26	-- num_channels: [16, 16, 32]
+01-22 02:26:26	-- num_blocks: [2, 1, 1]
+01-22 02:26:26	-- stem_kernel_size: 5
+01-22 02:26:26	-- block_kernel_size: 3
+01-22 02:26:26	-- pool_size: 3
+01-22 02:26:26	run_config: config/run/run.json
+01-22 02:26:26	-- batch_size_eval: 256
+01-22 02:26:26	-- num_epochs: 50
+01-22 02:26:26	-- learning_rate: 0.001
+01-22 02:26:26	-- weight_decay: 0
+01-22 02:26:26	-- dropout_rate: 0.5
+01-22 02:26:26	device: cuda (1 GPUs)
+01-22 02:26:26	output_path: results/TargetNet_training/
+01-22 02:26:26	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 02:26:26	start loading datasets
+01-22 02:31:40	##### arguments #####
+01-22 02:31:40	data_config: config/data/miRAW_train.json
+01-22 02:31:40	-- with_esa: True
+01-22 02:31:40	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 02:31:40	model_config: config/model/TargetNet.json
+01-22 02:31:40	-- skip_connection: True
+01-22 02:31:40	-- num_channels: [16, 16, 32]
+01-22 02:31:40	-- num_blocks: [2, 1, 1]
+01-22 02:31:40	-- stem_kernel_size: 5
+01-22 02:31:40	-- block_kernel_size: 3
+01-22 02:31:40	-- pool_size: 3
+01-22 02:31:40	run_config: config/run/run.json
+01-22 02:31:40	-- batch_size_eval: 256
+01-22 02:31:40	-- num_epochs: 50
+01-22 02:31:40	-- learning_rate: 0.001
+01-22 02:31:40	-- weight_decay: 0
+01-22 02:31:40	-- dropout_rate: 0.5
+01-22 02:31:40	device: cuda (1 GPUs)
+01-22 02:31:40	output_path: results/TargetNet_training/
+01-22 02:31:40	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 02:31:40	start loading datasets
+01-22 02:33:23	##### arguments #####
+01-22 02:33:23	data_config: config/data/miRAW_train.json
+01-22 02:33:23	-- with_esa: True
+01-22 02:33:23	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+01-22 02:33:23	model_config: config/model/TargetNet.json
+01-22 02:33:23	-- skip_connection: True
+01-22 02:33:23	-- num_channels: [16, 16, 32]
+01-22 02:33:23	-- num_blocks: [2, 1, 1]
+01-22 02:33:23	-- stem_kernel_size: 5
+01-22 02:33:23	-- block_kernel_size: 3
+01-22 02:33:23	-- pool_size: 3
+01-22 02:33:23	run_config: config/run/run.json
+01-22 02:33:23	-- batch_size_eval: 256
+01-22 02:33:23	-- num_epochs: 50
+01-22 02:33:23	-- learning_rate: 0.001
+01-22 02:33:23	-- weight_decay: 0
+01-22 02:33:23	-- dropout_rate: 0.5
+01-22 02:33:23	device: cuda (1 GPUs)
+01-22 02:33:23	output_path: results/TargetNet_training/
+01-22 02:33:23	log_file: results/TargetNet_training//train_model_log.txt
+
+01-22 02:33:24	start loading datasets
+01-22 02:33:49	loaded 54464 dataset_train samples
+01-22 02:33:49	loaded 4329 dataset_val samples
+01-22 02:33:49	elapsed time: 0:00:24.977919
+
+01-22 02:33:49	start initializing a model
+01-22 02:33:49	end initializing a model
+01-22 02:33:49	elapsed time: 0:00:00.010002
+
+01-22 02:33:49	start setting trainer configurations
+01-22 02:33:49	end setting trainer configurations
+01-22 02:33:49	elapsed time: 0:00:00.004000
+
+01-22 02:33:49	start training a model
+01-22 02:33:49	ep	split	loss	|	loss
+01-22 02:39:15	001	train	0.8013	|	val	0.6741
+01-22 02:44:42	002	train	0.4681	|	val	0.6500
+01-22 02:50:09	003	train	0.3965	|	val	0.6121
+01-22 02:55:32	004	train	0.3480	|	val	0.5881
+01-22 03:00:53	005	train	0.3228	|	val	0.5792
+01-22 03:06:12	006	train	0.3032	|	val	0.5607
+01-22 03:11:27	007	train	0.2891	|	val	0.5655
+01-22 03:16:47	008	train	0.2768	|	val	0.5421
+01-22 03:22:04	009	train	0.2668	|	val	0.5352
+01-22 03:27:19	010	train	0.2622	|	val	0.5312
+01-22 03:32:36	011	train	0.2537	|	val	0.5144
+01-22 03:37:51	012	train	0.2456	|	val	0.5134
+01-22 03:43:07	013	train	0.2413	|	val	0.5082
+01-22 03:48:27	014	train	0.2356	|	val	0.5083
+01-22 03:53:44	015	train	0.2329	|	val	0.4968
+01-22 03:59:01	016	train	0.2266	|	val	0.5000
+01-22 04:04:18	017	train	0.2210	|	val	0.4920
+01-22 04:09:35	018	train	0.2198	|	val	0.5023
+01-22 04:14:53	019	train	0.2151	|	val	0.4921
+01-22 04:20:10	020	train	0.2146	|	val	0.5017
+01-22 04:25:26	021	train	0.2109	|	val	0.4938
+01-22 04:30:41	022	train	0.2088	|	val	0.4844
+01-22 04:35:58	023	train	0.2072	|	val	0.4794
+01-22 04:41:13	024	train	0.2070	|	val	0.4963
+01-22 04:46:34	025	train	0.2020	|	val	0.4970
+01-22 04:51:49	026	train	0.2042	|	val	0.4775
+01-22 04:57:04	027	train	0.2011	|	val	0.4859
+01-22 05:02:20	028	train	0.2006	|	val	0.4754
+01-22 05:07:35	029	train	0.1972	|	val	0.4855
+01-22 05:12:53	030	train	0.1962	|	val	0.4801
+01-22 05:18:12	031	train	0.1947	|	val	0.4784
+01-22 05:23:27	032	train	0.1928	|	val	0.4904
+01-22 05:28:41	033	train	0.1923	|	val	0.4737
+01-22 05:33:58	034	train	0.1947	|	val	0.4747
+01-22 05:39:13	035	train	0.1915	|	val	0.4744
+01-22 05:44:34	036	train	0.1899	|	val	0.4701
+01-22 05:49:50	037	train	0.1897	|	val	0.4663
+01-22 05:55:06	038	train	0.1895	|	val	0.4700
+01-22 06:00:22	039	train	0.1870	|	val	0.4738
+01-22 06:05:39	040	train	0.1882	|	val	0.4748
+01-22 06:10:57	041	train	0.1864	|	val	0.4631
+01-22 06:16:13	042	train	0.1872	|	val	0.4684
+01-22 06:21:32	043	train	0.1841	|	val	0.4522
+01-22 06:26:48	044	train	0.1858	|	val	0.4604
+01-22 06:32:03	045	train	0.1821	|	val	0.4546
+01-22 06:37:18	046	train	0.1817	|	val	0.4726
+01-22 06:42:34	047	train	0.1820	|	val	0.4628
+01-22 06:47:52	048	train	0.1799	|	val	0.4637
+01-22 06:53:07	049	train	0.1808	|	val	0.4606
+01-22 06:58:22	050	train	0.1776	|	val	0.4540
+01-22 06:58:22	end training a model
+01-22 06:58:22	elapsed time: 4:24:33.833557
+
+02-17 23:31:39	##### arguments #####
+02-17 23:31:39	data_config: config/data/miRAW_train.json
+02-17 23:31:39	-- with_esa: True
+02-17 23:31:39	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+02-17 23:31:39	model_config: config/model/TargetNet.json
+02-17 23:31:39	-- skip_connection: True
+02-17 23:31:39	-- num_channels: [16, 16, 32]
+02-17 23:31:39	-- num_blocks: [2, 1, 1]
+02-17 23:31:39	-- stem_kernel_size: 5
+02-17 23:31:39	-- block_kernel_size: 3
+02-17 23:31:39	-- pool_size: 3
+02-17 23:31:39	run_config: config/run/run.json
+02-17 23:31:39	-- batch_size_eval: 256
+02-17 23:31:39	-- num_epochs: 50
+02-17 23:31:39	-- learning_rate: 0.001
+02-17 23:31:39	-- weight_decay: 0
+02-17 23:31:39	-- dropout_rate: 0.5
+02-17 23:31:39	device: cuda (1 GPUs)
+02-17 23:31:39	output_path: results/TargetNet_training/
+02-17 23:31:39	log_file: results/TargetNet_training//train_model_log.txt
+
+02-17 23:31:39	start loading datasets
+02-17 23:34:17	loaded 816960 dataset_train samples
+02-17 23:34:17	loaded 64935 dataset_val samples
+02-17 23:34:17	elapsed time: 0:02:37.647397
+
+02-17 23:34:17	start initializing a model
+02-17 23:34:17	end initializing a model
+02-17 23:34:17	elapsed time: 0:00:00.023943
+
+02-17 23:34:17	start setting trainer configurations
+02-17 23:34:17	end setting trainer configurations
+02-17 23:34:17	elapsed time: 0:00:00.007995
+
+02-17 23:34:17	start training a model
+02-17 23:34:17	ep	split	loss	|	loss
+02-18 00:10:18	##### arguments #####
+02-18 00:10:18	data_config: config/data/miRAW_train.json
+02-18 00:10:18	-- with_esa: True
+02-18 00:10:18	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 00:10:18	model_config: config/model/TargetNet.json
+02-18 00:10:18	-- skip_connection: True
+02-18 00:10:18	-- num_channels: [16, 16, 32]
+02-18 00:10:18	-- num_blocks: [2, 1, 1]
+02-18 00:10:18	-- stem_kernel_size: 5
+02-18 00:10:18	-- block_kernel_size: 3
+02-18 00:10:18	-- pool_size: 3
+02-18 00:10:18	run_config: config/run/run.json
+02-18 00:10:18	-- batch_size_eval: 256
+02-18 00:10:18	-- num_epochs: 50
+02-18 00:10:18	-- learning_rate: 0.001
+02-18 00:10:18	-- weight_decay: 0
+02-18 00:10:18	-- dropout_rate: 0.5
+02-18 00:10:18	device: cuda (1 GPUs)
+02-18 00:10:18	output_path: results/TargetNet_training/
+02-18 00:10:18	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 00:10:18	start loading datasets
+02-18 00:10:18	loaded 90 dataset_train samples
+02-18 00:10:18	loaded 60 dataset_val samples
+02-18 00:10:18	elapsed time: 0:00:00.027219
+
+02-18 00:10:18	start initializing a model
+02-18 00:10:18	end initializing a model
+02-18 00:10:18	elapsed time: 0:00:00.013049
+
+02-18 00:10:18	start setting trainer configurations
+02-18 00:10:18	end setting trainer configurations
+02-18 00:10:18	elapsed time: 0:00:00.002001
+
+02-18 00:10:18	start training a model
+02-18 00:10:18	ep	split	loss	|	loss
+02-18 00:10:37	001	train	0.1676	|	val	0.1930
+02-18 00:10:46	002	train	0.0571	|	val	0.1419
+02-18 00:10:55	003	train	0.0377	|	val	0.1062
+02-18 00:11:04	004	train	0.0479	|	val	0.0810
+02-18 00:11:12	005	train	0.0007	|	val	0.0640
+02-18 00:11:21	006	train	0.0005	|	val	0.0521
+02-18 00:11:28	007	train	0.0009	|	val	0.0434
+02-18 00:11:36	008	train	0.0009	|	val	0.0368
+02-18 00:11:45	009	train	0.0006	|	val	0.0317
+02-18 00:11:53	010	train	0.0001	|	val	0.0277
+02-18 00:12:01	011	train	0.0000	|	val	0.0245
+02-18 00:12:09	012	train	0.0000	|	val	0.0220
+02-18 00:12:17	013	train	0.0000	|	val	0.0199
+02-18 00:12:25	014	train	0.0000	|	val	0.0182
+02-18 00:12:34	015	train	0.0000	|	val	0.0167
+02-18 00:12:41	016	train	0.0000	|	val	0.0155
+02-18 00:12:50	017	train	0.0000	|	val	0.0145
+02-18 00:12:57	018	train	0.0000	|	val	0.0136
+02-18 00:13:06	019	train	0.0000	|	val	0.0129
+02-18 00:13:15	020	train	0.0000	|	val	0.0122
+02-18 00:13:23	021	train	0.0000	|	val	0.0117
+02-18 00:13:32	022	train	0.0000	|	val	0.0112
+02-18 00:13:41	023	train	0.0000	|	val	0.0108
+02-18 00:13:49	024	train	0.0000	|	val	0.0104
+02-18 00:13:58	025	train	0.0000	|	val	0.0100
+02-18 00:14:07	026	train	0.0000	|	val	0.0098
+02-18 00:14:15	027	train	0.0000	|	val	0.0095
+02-18 00:14:25	028	train	0.0000	|	val	0.0093
+02-18 00:14:33	029	train	0.0000	|	val	0.0091
+02-18 00:14:42	030	train	0.0000	|	val	0.0089
+02-18 00:14:51	031	train	0.0000	|	val	0.0087
+02-18 00:15:00	032	train	0.0000	|	val	0.0086
+02-18 00:15:09	033	train	0.0000	|	val	0.0084
+02-18 00:15:17	034	train	0.0000	|	val	0.0083
+02-18 00:15:26	035	train	0.0000	|	val	0.0082
+02-18 00:15:36	036	train	0.0000	|	val	0.0081
+02-18 00:15:44	037	train	0.0000	|	val	0.0080
+02-18 00:15:54	038	train	0.0000	|	val	0.0079
+02-18 00:16:02	039	train	0.0000	|	val	0.0079
+02-18 00:16:10	040	train	0.0000	|	val	0.0078
+02-18 00:16:19	041	train	0.0000	|	val	0.0078
+02-18 00:16:27	042	train	0.0000	|	val	0.0077
+02-18 00:16:36	043	train	0.0000	|	val	0.0077
+02-18 00:16:45	044	train	0.0000	|	val	0.0076
+02-18 00:16:55	045	train	0.0000	|	val	0.0076
+02-18 00:17:03	046	train	0.0000	|	val	0.0075
+02-18 00:17:13	047	train	0.0000	|	val	0.0075
+02-18 00:17:22	048	train	0.0000	|	val	0.0075
+02-18 00:17:30	049	train	0.0000	|	val	0.0075
+02-18 00:17:39	050	train	0.0000	|	val	0.0074
+02-18 00:17:39	end training a model
+02-18 00:17:39	elapsed time: 0:07:20.178446
+
+02-18 00:18:43	##### arguments #####
+02-18 00:18:43	data_config: config/data/miRAW_train.json
+02-18 00:18:43	-- with_esa: True
+02-18 00:18:43	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+02-18 00:18:43	model_config: config/model/TargetNet.json
+02-18 00:18:43	-- skip_connection: True
+02-18 00:18:43	-- num_channels: [16, 16, 32]
+02-18 00:18:43	-- num_blocks: [2, 1, 1]
+02-18 00:18:43	-- stem_kernel_size: 5
+02-18 00:18:43	-- block_kernel_size: 3
+02-18 00:18:43	-- pool_size: 3
+02-18 00:18:43	run_config: config/run/run.json
+02-18 00:18:43	-- batch_size_eval: 256
+02-18 00:18:43	-- num_epochs: 50
+02-18 00:18:43	-- learning_rate: 0.001
+02-18 00:18:43	-- weight_decay: 0
+02-18 00:18:43	-- dropout_rate: 0.5
+02-18 00:18:43	device: cuda (1 GPUs)
+02-18 00:18:43	output_path: results/TargetNet_training/
+02-18 00:18:43	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 00:18:43	start loading datasets
+02-18 00:21:04	loaded 816960 dataset_train samples
+02-18 00:21:04	loaded 64935 dataset_val samples
+02-18 00:21:04	elapsed time: 0:02:20.718266
+
+02-18 00:21:04	start initializing a model
+02-18 00:21:04	end initializing a model
+02-18 00:21:04	elapsed time: 0:00:00.002001
+
+02-18 00:21:04	start setting trainer configurations
+02-18 00:21:04	end setting trainer configurations
+02-18 00:21:04	elapsed time: 0:00:00.003001
+
+02-18 00:21:04	start training a model
+02-18 00:21:04	ep	split	loss	|	loss
+02-18 10:54:40	##### arguments #####
+02-18 10:54:40	data_config: config/data/miRAW_train.json
+02-18 10:54:40	-- with_esa: True
+02-18 10:54:40	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 10:54:40	model_config: config/model/TargetNet.json
+02-18 10:54:40	-- skip_connection: True
+02-18 10:54:40	-- num_channels: [16, 16, 32]
+02-18 10:54:40	-- num_blocks: [2, 1, 1]
+02-18 10:54:40	-- stem_kernel_size: 5
+02-18 10:54:40	-- block_kernel_size: 3
+02-18 10:54:40	-- pool_size: 3
+02-18 10:54:40	run_config: config/run/run.json
+02-18 10:54:40	-- batch_size_eval: 256
+02-18 10:54:40	-- num_epochs: 50
+02-18 10:54:40	-- learning_rate: 0.001
+02-18 10:54:40	-- weight_decay: 0
+02-18 10:54:40	-- dropout_rate: 0.5
+02-18 10:54:40	device: cuda (1 GPUs)
+02-18 10:54:40	output_path: results/TargetNet_training/
+02-18 10:54:40	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 10:54:40	start loading datasets
+02-18 10:54:40	loaded 6 dataset_train samples
+02-18 10:54:40	loaded 4 dataset_val samples
+02-18 10:54:40	elapsed time: 0:00:00.007000
+
+02-18 10:54:40	start initializing a model
+02-18 10:54:40	end initializing a model
+02-18 10:54:40	elapsed time: 0:00:00.020973
+
+02-18 10:54:40	start setting trainer configurations
+02-18 10:54:40	end setting trainer configurations
+02-18 10:54:40	elapsed time: 0:00:00.008349
+
+02-18 10:54:40	start training a model
+02-18 10:54:40	ep	split	loss	|	loss
+02-18 10:56:48	##### arguments #####
+02-18 10:56:48	data_config: config/data/miRAW_train.json
+02-18 10:56:48	-- with_esa: True
+02-18 10:56:48	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 10:56:48	model_config: config/model/TargetNet.json
+02-18 10:56:48	-- skip_connection: True
+02-18 10:56:48	-- num_channels: [16, 16, 32]
+02-18 10:56:48	-- num_blocks: [2, 1, 1]
+02-18 10:56:48	-- stem_kernel_size: 5
+02-18 10:56:48	-- block_kernel_size: 3
+02-18 10:56:48	-- pool_size: 3
+02-18 10:56:48	run_config: config/run/run.json
+02-18 10:56:48	-- batch_size_eval: 256
+02-18 10:56:48	-- num_epochs: 50
+02-18 10:56:48	-- learning_rate: 0.001
+02-18 10:56:48	-- weight_decay: 0
+02-18 10:56:48	-- dropout_rate: 0.5
+02-18 10:56:48	device: cuda (1 GPUs)
+02-18 10:56:48	output_path: results/TargetNet_training/
+02-18 10:56:48	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 10:56:48	start loading datasets
+02-18 10:56:48	loaded 6 dataset_train samples
+02-18 10:56:48	loaded 4 dataset_val samples
+02-18 10:56:48	elapsed time: 0:00:00.004001
+
+02-18 10:56:48	start initializing a model
+02-18 10:56:48	end initializing a model
+02-18 10:56:48	elapsed time: 0:00:00.004000
+
+02-18 10:56:48	start setting trainer configurations
+02-18 10:56:48	end setting trainer configurations
+02-18 10:56:48	elapsed time: 0:00:00.003658
+
+02-18 10:56:48	start training a model
+02-18 10:56:48	ep	split	loss	|	loss
+02-18 10:56:57	001	train	1.5112	|	val	0.2422
+02-18 10:57:02	002	train	1.3290	|	val	0.1648
+02-18 10:57:20	##### arguments #####
+02-18 10:57:20	data_config: config/data/miRAW_train.json
+02-18 10:57:20	-- with_esa: True
+02-18 10:57:20	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 10:57:20	model_config: config/model/TargetNet.json
+02-18 10:57:20	-- skip_connection: True
+02-18 10:57:20	-- num_channels: [16, 16, 32]
+02-18 10:57:20	-- num_blocks: [2, 1, 1]
+02-18 10:57:20	-- stem_kernel_size: 5
+02-18 10:57:20	-- block_kernel_size: 3
+02-18 10:57:20	-- pool_size: 3
+02-18 10:57:20	run_config: config/run/run.json
+02-18 10:57:20	-- batch_size_eval: 256
+02-18 10:57:20	-- num_epochs: 50
+02-18 10:57:20	-- learning_rate: 0.001
+02-18 10:57:20	-- weight_decay: 0
+02-18 10:57:20	-- dropout_rate: 0.5
+02-18 10:57:20	device: cuda (1 GPUs)
+02-18 10:57:20	output_path: results/TargetNet_training/
+02-18 10:57:20	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 10:57:20	start loading datasets
+02-18 10:57:20	loaded 6 dataset_train samples
+02-18 10:57:20	loaded 4 dataset_val samples
+02-18 10:57:20	elapsed time: 0:00:00.003002
+
+02-18 10:57:20	start initializing a model
+02-18 10:57:20	end initializing a model
+02-18 10:57:20	elapsed time: 0:00:00.003998
+
+02-18 10:57:20	start setting trainer configurations
+02-18 10:57:20	end setting trainer configurations
+02-18 10:57:20	elapsed time: 0:00:00.002998
+
+02-18 10:57:20	start training a model
+02-18 10:57:20	ep	split	loss	|	loss
+02-18 10:57:31	001	train	1.5112	|	val	0.2422
+02-18 10:57:36	002	train	1.3290	|	val	0.1648
+02-18 11:25:47	##### arguments #####
+02-18 11:25:47	data_config: config/data/miRAW_train.json
+02-18 11:25:47	-- with_esa: True
+02-18 11:25:47	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 11:25:47	model_config: config/model/TargetNet.json
+02-18 11:25:47	-- skip_connection: True
+02-18 11:25:47	-- num_channels: [16, 16, 32]
+02-18 11:25:47	-- num_blocks: [2, 1, 1]
+02-18 11:25:47	-- stem_kernel_size: 5
+02-18 11:25:47	-- block_kernel_size: 3
+02-18 11:25:47	-- pool_size: 3
+02-18 11:25:47	run_config: config/run/run.json
+02-18 11:25:47	-- batch_size_eval: 256
+02-18 11:25:47	-- num_epochs: 50
+02-18 11:25:47	-- learning_rate: 0.001
+02-18 11:25:47	-- weight_decay: 0
+02-18 11:25:47	-- dropout_rate: 0.5
+02-18 11:25:47	device: cuda (1 GPUs)
+02-18 11:25:47	output_path: results/TargetNet_training/
+02-18 11:25:47	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 11:25:47	start loading datasets
+02-18 11:25:47	loaded 6 dataset_train samples
+02-18 11:25:47	loaded 4 dataset_val samples
+02-18 11:25:47	elapsed time: 0:00:00.003021
+
+02-18 11:25:47	start initializing a model
+02-18 11:25:47	end initializing a model
+02-18 11:25:47	elapsed time: 0:00:00.003997
+
+02-18 11:25:47	start setting trainer configurations
+02-18 11:25:47	end setting trainer configurations
+02-18 11:25:47	elapsed time: 0:00:00.002509
+
+02-18 11:25:47	start training a model
+02-18 11:25:47	ep	split	loss	|	loss
+02-18 11:25:58	001	train	0.6830	|	val	0.6815
+02-18 11:26:02	002	train	0.6826	|	val	0.6813
+02-18 11:26:09	003	train	0.6819	|	val	0.6810
+02-18 11:26:14	004	train	0.6816	|	val	0.6807
+02-18 11:42:35	##### arguments #####
+02-18 11:42:35	data_config: config/data/miRAW_train.json
+02-18 11:42:35	-- with_esa: True
+02-18 11:42:35	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 11:42:35	model_config: config/model/TargetNet.json
+02-18 11:42:35	-- skip_connection: True
+02-18 11:42:35	-- num_channels: [16, 16, 32]
+02-18 11:42:35	-- num_blocks: [2, 1, 1]
+02-18 11:42:35	-- stem_kernel_size: 5
+02-18 11:42:35	-- block_kernel_size: 3
+02-18 11:42:35	-- pool_size: 3
+02-18 11:42:35	run_config: config/run/run.json
+02-18 11:42:35	-- batch_size_eval: 256
+02-18 11:42:35	-- num_epochs: 50
+02-18 11:42:35	-- learning_rate: 0.001
+02-18 11:42:35	-- weight_decay: 0
+02-18 11:42:35	-- dropout_rate: 0.5
+02-18 11:42:35	device: cuda (1 GPUs)
+02-18 11:42:35	output_path: results/TargetNet_training/
+02-18 11:42:35	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 11:42:35	start loading datasets
+02-18 11:42:35	loaded 4 dataset_train samples
+02-18 11:42:35	loaded 4 dataset_val samples
+02-18 11:42:35	elapsed time: 0:00:00.003002
+
+02-18 11:42:35	start initializing a model
+02-18 11:42:35	end initializing a model
+02-18 11:42:35	elapsed time: 0:00:00.004032
+
+02-18 11:42:35	start setting trainer configurations
+02-18 11:42:35	end setting trainer configurations
+02-18 11:42:35	elapsed time: 0:00:00.002966
+
+02-18 11:42:35	start training a model
+02-18 11:42:35	ep	split	loss	|	loss
+02-18 11:57:12	##### arguments #####
+02-18 11:57:12	data_config: config/data/miRAW_train.json
+02-18 11:57:12	-- with_esa: True
+02-18 11:57:12	-- path: {'train': 'data/test_test.txt', 'val': 'data/test_test.txt'}
+02-18 11:57:12	model_config: config/model/TargetNet.json
+02-18 11:57:12	-- skip_connection: True
+02-18 11:57:12	-- num_channels: [16, 16, 32]
+02-18 11:57:12	-- num_blocks: [2, 1, 1]
+02-18 11:57:12	-- stem_kernel_size: 5
+02-18 11:57:12	-- block_kernel_size: 3
+02-18 11:57:12	-- pool_size: 3
+02-18 11:57:12	run_config: config/run/run.json
+02-18 11:57:12	-- batch_size_eval: 256
+02-18 11:57:12	-- num_epochs: 50
+02-18 11:57:12	-- learning_rate: 0.001
+02-18 11:57:12	-- weight_decay: 0
+02-18 11:57:12	-- dropout_rate: 0.5
+02-18 11:57:12	device: cuda (1 GPUs)
+02-18 11:57:12	output_path: results/TargetNet_training/
+02-18 11:57:12	log_file: results/TargetNet_training//train_model_log.txt
+
+02-18 11:57:12	start loading datasets
+02-18 11:57:12	loaded 4 dataset_train samples
+02-18 11:57:12	loaded 4 dataset_val samples
+02-18 11:57:12	elapsed time: 0:00:00.002981
+
+02-18 11:57:12	start initializing a model
+02-18 11:57:12	end initializing a model
+02-18 11:57:12	elapsed time: 0:00:00.005005
+
+02-18 11:57:12	start setting trainer configurations
+02-18 11:57:12	end setting trainer configurations
+02-18 11:57:12	elapsed time: 0:00:00.002995
+
+02-18 11:57:12	start training a model
+02-18 11:57:12	ep	split	loss	|	loss
+02-18 11:57:29	001	train	0.0255	|	val	0.2763
+02-18 11:57:34	002	train	0.0148	|	val	0.1670
+02-18 11:57:39	003	train	0.0003	|	val	0.1097
+02-18 11:57:45	004	train	0.0016	|	val	0.0742
+02-18 11:57:50	005	train	0.0002	|	val	0.0526
+02-18 11:57:56	006	train	0.0000	|	val	0.0387
+02-18 11:58:02	007	train	0.0000	|	val	0.0295
+02-18 11:58:08	008	train	0.0000	|	val	0.0231
+02-18 11:58:14	009	train	0.0000	|	val	0.0185
+02-18 11:58:20	010	train	0.0000	|	val	0.0152
+02-18 11:58:26	011	train	0.0000	|	val	0.0127
+02-18 11:58:31	012	train	0.0000	|	val	0.0108
+02-18 11:58:38	013	train	0.0000	|	val	0.0093
+02-18 11:58:45	014	train	0.0000	|	val	0.0081
+02-18 11:58:51	015	train	0.0000	|	val	0.0072
+02-18 11:58:56	016	train	0.0000	|	val	0.0064
+02-18 11:59:02	017	train	0.0000	|	val	0.0058
+02-18 11:59:09	018	train	0.0000	|	val	0.0053
+02-18 11:59:15	019	train	0.0000	|	val	0.0048
+02-18 11:59:21	020	train	0.0000	|	val	0.0045
+02-18 11:59:28	021	train	0.0000	|	val	0.0042
+02-18 11:59:35	022	train	0.0000	|	val	0.0039
+02-18 11:59:41	023	train	0.0000	|	val	0.0037
+02-18 11:59:48	024	train	0.0000	|	val	0.0035
+02-18 11:59:54	025	train	0.0000	|	val	0.0033
+02-18 12:00:00	026	train	0.0000	|	val	0.0032
+02-18 12:00:07	027	train	0.0000	|	val	0.0030
+02-18 12:00:12	028	train	0.0000	|	val	0.0029
+02-18 12:00:19	029	train	0.0000	|	val	0.0028
+02-18 12:00:24	030	train	0.0000	|	val	0.0027
+02-18 12:00:31	031	train	0.0000	|	val	0.0026
+02-18 12:00:37	032	train	0.0000	|	val	0.0026
+02-18 12:00:44	033	train	0.0000	|	val	0.0025
+02-18 12:00:50	034	train	0.0000	|	val	0.0025
+02-18 12:00:57	035	train	0.0000	|	val	0.0024
+02-18 12:01:04	036	train	0.0000	|	val	0.0024
+02-18 12:01:11	037	train	0.0000	|	val	0.0023
+02-18 12:01:16	038	train	0.0000	|	val	0.0023
+02-18 12:01:22	039	train	0.0000	|	val	0.0023
+02-18 12:01:29	040	train	0.0000	|	val	0.0022
+02-18 12:01:35	041	train	0.0000	|	val	0.0022
+02-18 12:01:41	042	train	0.0000	|	val	0.0022
+02-18 12:01:47	043	train	0.0000	|	val	0.0022
+02-18 12:01:52	044	train	0.0000	|	val	0.0022
+02-18 12:01:59	045	train	0.0000	|	val	0.0021
+02-18 12:02:04	046	train	0.0000	|	val	0.0021
+02-18 12:02:10	047	train	0.0000	|	val	0.0021
+02-18 12:02:16	048	train	0.0000	|	val	0.0021
+02-18 12:02:23	049	train	0.0000	|	val	0.0021
+02-18 12:02:29	050	train	0.0000	|	val	0.0021
+02-18 12:02:29	end training a model
+02-18 12:02:29	elapsed time: 0:05:17.004354
+
+04-05 17:16:17	##### arguments #####
+04-05 17:16:17	data_config: config/data/miRAW_train.json
+04-05 17:16:17	-- with_esa: True
+04-05 17:16:17	-- path: {'train': 'data/miRAW_Train_Validation.txt', 'val': 'data/miRAW_Train_Validation.txt'}
+04-05 17:16:17	model_config: config/model/TargetNet.json
+04-05 17:16:17	-- skip_connection: True
+04-05 17:16:17	-- num_channels: [16, 16, 32]
+04-05 17:16:17	-- num_blocks: [2, 1, 1]
+04-05 17:16:17	-- stem_kernel_size: 5
+04-05 17:16:17	-- block_kernel_size: 3
+04-05 17:16:17	-- pool_size: 3
+04-05 17:16:17	run_config: config/run/run.json
+04-05 17:16:17	-- batch_size_eval: 256
+04-05 17:16:17	-- num_epochs: 50
+04-05 17:16:17	-- learning_rate: 0.001
+04-05 17:16:17	-- weight_decay: 0
+04-05 17:16:17	-- dropout_rate: 0.5
+04-05 17:16:17	device: cuda (1 GPUs)
+04-05 17:16:17	output_path: results/TargetNet_training/
+04-05 17:16:17	log_file: results/TargetNet_training//train_model_log.txt
+
+04-05 17:16:18	start loading datasets
+04-05 17:16:18	loaded 6 dataset_train samples
+04-05 17:16:18	loaded 6 dataset_val samples
+04-05 17:16:18	elapsed time: 0:00:00.026296
+
+04-05 17:16:18	start initializing a model
+04-05 17:16:18	end initializing a model
+04-05 17:16:18	elapsed time: 0:00:00.018614
+
+04-05 17:16:18	start setting trainer configurations
+04-05 17:16:18	end setting trainer configurations
+04-05 17:16:18	elapsed time: 0:00:00.004693
+
+04-05 17:16:18	start training a model
+04-05 17:16:18	ep	split	loss	|	loss
+04-05 17:16:33	001	train	1.4245	|	val	0.6807
+04-05 17:16:40	002	train	1.3644	|	val	0.7231
