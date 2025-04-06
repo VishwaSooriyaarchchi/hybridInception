@@ -1,4 +1,4 @@
 {
-  "train_path": "/content/Proposed-model/data/miRAW_Train_Validation.txt",
-  "val_path": "/content/Proposed-model/data/miRAW_Train_Validation.txt"
+  "train_path": "/content/hybridInception/data/miRAW_Train_Validation.txt",
+  "val_path": "/content/hybridInception/data/miRAW_Train_Validation.txt"
 }
