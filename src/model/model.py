@@ -138,9 +138,9 @@ class InceptionWithAttention(nn.Module):
 
 
 class AttentionConvBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0):
+    def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, dilation=1):
         super(AttentionConvBlock, self).__init__()
-        self.conv = nn.Conv1d(in_channels, out_channels, kernel_size, stride, padding)
+        self.conv = nn.Conv1d(in_channels, out_channels, kernel_size, stride, padding, dilation = dilation)
         self.attention = nn.Sequential(
             nn.Conv1d(out_channels, out_channels, kernel_size=1),
             nn.Sigmoid()
