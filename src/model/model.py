@@ -25,7 +25,7 @@ class TargetNet(nn.Module):
         self.stage2 = self._make_layer(model_cfg, num_channels[2], num_blocks[2], dropout_rate)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(p=dropout_rate if dropout_rate is not None else 0)
-        self.inception = InceptionWithAttention(10, 24, (24, 48), (8, 16), 12,2)
+        self.inception = InceptionWithAttention(10, 24, (24, 48), (8, 16), 12)
         self.max_pool = nn.MaxPool1d(model_cfg.pool_size)
         # self.linear = nn.Linear(int(num_channels[-1] * out_length), 1)
         self.linear = nn.Linear(5000, 1)
@@ -87,39 +87,27 @@ def conv_kx1(in_channels, out_channels, kernel_size, stride=1):
 
 
 class InceptionWithAttention(nn.Module):
-    def __init__(self, in_channels, c1, c2, c3, c4, dilation):
+    def __init__(self, in_channels, c1, c2, c3, c4):
         super(InceptionWithAttention, self).__init__()
-        # Branch p1: originally 1x1 conv. Here, if you want a larger kernel, update accordingly.
-        # For example, use kernel_size=7 with dilation if desired:
         self.p1 = nn.Sequential(
-            nn.Conv1d(in_channels, c1, kernel_size=7, dilation=dilation, 
-                      padding=dilation * (7 - 1) // 2),
+            nn.Conv1d(in_channels, c1, kernel_size=1),
             nn.ReLU()
         )
-        
-        # Branch p2: A 1x1 conv followed by a convolution that now uses kernel_size=7 with dilation.
         self.p2 = nn.Sequential(
             AttentionConvBlock(in_channels, c2[0], kernel_size=1),
-            AttentionConvBlock(c2[0], c2[1], kernel_size=7, dilation=dilation, 
-                                 padding=dilation * (7 - 1) // 2),
+            AttentionConvBlock(c2[0], c2[1], kernel_size=3, padding=1),
             nn.ReLU()
         )
-        
-        # Branch p3: Similarly, update the second conv to use a larger kernel with dilation.
         self.p3 = nn.Sequential(
             AttentionConvBlock(in_channels, c3[0], kernel_size=1),
-            AttentionConvBlock(c3[0], c3[1], kernel_size=7, dilation=dilation, 
-                                 padding=dilation * (7 - 1) // 2),
+            AttentionConvBlock(c3[0], c3[1], kernel_size=3, padding=1),
             nn.ReLU()
         )
-        
-        # Branch p4: Typically remains as a max pooling branch followed by a 1x1 conv.
         self.p4 = nn.Sequential(
             nn.MaxPool1d(kernel_size=3, stride=1, padding=1),
             nn.Conv1d(in_channels, c4, kernel_size=1),
             nn.ReLU()
         )
-        
         self.ca = ChannelAttention(c1 + c2[1] + c3[1] + c4)
         self.sa = SpatialAttention()
         self.flatten = nn.Flatten()
@@ -133,14 +121,15 @@ class InceptionWithAttention(nn.Module):
         out = self.ca(out)
         out = self.sa(out)
         out = self.flatten(out)
+
         return out
 
 
 
 class AttentionConvBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, dilation=1):
+    def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0):
         super(AttentionConvBlock, self).__init__()
-        self.conv = nn.Conv1d(in_channels, out_channels, kernel_size, stride, padding, dilation = dilation)
+        self.conv = nn.Conv1d(in_channels, out_channels, kernel_size, stride, padding)
         self.attention = nn.Sequential(
             nn.Conv1d(out_channels, out_channels, kernel_size=1),
             nn.Sigmoid()
