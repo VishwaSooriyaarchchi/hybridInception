@@ -25,7 +25,7 @@ class TargetNet(nn.Module):
         self.stage2 = self._make_layer(model_cfg, num_channels[2], num_blocks[2], dropout_rate)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(p=dropout_rate if dropout_rate is not None else 0)
-        self.inception = InceptionWithAttention(10, 24, (24, 48), (8, 16), 12)
+        self.inception = InceptionWithAttention(10, 24, (24, 48), (8, 16), 12,2)
         self.max_pool = nn.MaxPool1d(model_cfg.pool_size)
         # self.linear = nn.Linear(int(num_channels[-1] * out_length), 1)
         self.linear = nn.Linear(5000, 1)
@@ -87,7 +87,7 @@ def conv_kx1(in_channels, out_channels, kernel_size, stride=1):
 
 
 class InceptionWithAttention(nn.Module):
-    def __init__(self, in_channels, c1, c2, c3, c4, dilation=2):
+    def __init__(self, in_channels, c1, c2, c3, c4, dilation):
         super(InceptionWithAttention, self).__init__()
         # Branch p1: originally 1x1 conv. Here, if you want a larger kernel, update accordingly.
         # For example, use kernel_size=7 with dilation if desired:
