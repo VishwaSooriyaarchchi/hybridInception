@@ -108,9 +108,7 @@ class InceptionWithAttention(nn.Module):
             nn.Conv1d(in_channels, c4, kernel_size=1),
             nn.ReLU()
         )
-        # self.ca = ChannelAttention(c1 + c2[1] + c3[1] + c4)
-        total_channels = c1 + c2[1] + c3[1] + c4
-        self.ca = SEBlock(total_channels, reduction=16)
+        self.ca = ChannelAttention(c1 + c2[1] + c3[1] + c4)
         self.sa = SpatialAttention()
         self.flatten = nn.Flatten()
 
@@ -233,27 +231,3 @@ class FusionGate(nn.Module):
         gate = self.sigmoid(self.linear(combined))
         fused_features = gate * feat_resnet + (1 - gate) * feat_inception
         return fused_features
-    
-class SEBlock(nn.Module):
-    def __init__(self, channels, reduction=16):
-        """
-        channels: Number of input channels.
-        reduction: Reduction ratio for the bottleneck (e.g., 16).
-        """
-        super(SEBlock, self).__init__()
-        self.fc = nn.Sequential(
-            nn.Linear(channels, channels // reduction, bias=False),
-            nn.ReLU(inplace=True),
-            nn.Linear(channels // reduction, channels, bias=False),
-            nn.Sigmoid()
-        )
-    
-    def forward(self, x):
-        # x shape: [batch_size, channels, length]
-        b, c, _ = x.size()
-        # Squeeze: Global Average Pooling (over spatial dimension)
-        y = x.mean(dim=2)  # shape: [b, c]
-        # Excitation: Fully connected bottleneck and sigmoid
-        y = self.fc(y).view(b, c, 1)  # shape: [b, c, 1]
-        # Scale: Multiply the input by the channel weights
-        return x * y
