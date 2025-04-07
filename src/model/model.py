@@ -87,7 +87,7 @@ def conv_kx1(in_channels, out_channels, kernel_size, stride=1):
 
 
 class InceptionWithAttention(nn.Module):
-     def __init__(self, in_channels, c1, c2, c3, c4, dilation=2):
+    def __init__(self, in_channels, c1, c2, c3, c4, dilation=2):
         super(InceptionWithAttention, self).__init__()
         # Branch p1: originally 1x1 conv. Here, if you want a larger kernel, update accordingly.
         # For example, use kernel_size=7 with dilation if desired:
@@ -133,7 +133,6 @@ class InceptionWithAttention(nn.Module):
         out = self.ca(out)
         out = self.sa(out)
         out = self.flatten(out)
-
         return out
 
 
