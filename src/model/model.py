@@ -28,7 +28,7 @@ class TargetNet(nn.Module):
         self.inception = InceptionWithAttention(10, 24, (24, 48), (8, 16), 12)
         self.max_pool = nn.MaxPool1d(model_cfg.pool_size)
         # self.linear = nn.Linear(int(num_channels[-1] * out_length), 1)
-        self.linear = nn.Linear(3800, 1)
+        self.linear = nn.Linear(5000, 1)
 
         #changes for the fused gate parts
         self.inception_proj = nn.Linear(3800, 512)
