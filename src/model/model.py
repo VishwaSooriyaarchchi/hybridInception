@@ -25,7 +25,7 @@ class TargetNet(nn.Module):
         self.stage2 = self._make_layer(model_cfg, num_channels[2], num_blocks[2], dropout_rate)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(p=dropout_rate if dropout_rate is not None else 0)
-        self.inception = InceptionWithAttention(10, 16, (16, 32), (8, 16), 12)
+        self.inception = InceptionWithAttention(10, 24, (24, 48), (8, 16), 12)
         self.max_pool = nn.MaxPool1d(model_cfg.pool_size)
         # self.linear = nn.Linear(int(num_channels[-1] * out_length), 1)
         self.linear = nn.Linear(3800, 1)
